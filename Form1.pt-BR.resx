@@ -1,0 +1,495 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>22, 23</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>118, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>VALOR DO SERVIÇO: </value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>457, 30</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>35, 15</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>495, 27</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>108, 23</value>
+  </data>
+  <data name="textBox4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>154, 31</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>146, 15</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Condições de pagamento:</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>Débito à vista</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>Crédito à vista</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>Crédito parcelado x2</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>Crédito parcelado x3</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>Crédito parcelado x4</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>Crédito parcelado x5</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>Crédito parcelado x6</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>Crédito parcelado x7</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>Crédito parcelado x8</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value>Crédito parcelado x9</value>
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>Crédito parcelado x10</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>Crédito parcelado x11</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>Crédito parcelado x12</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>301, 28</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>143, 23</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>15, 31</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>36, 15</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>52, 27</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>91, 23</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>617, 66</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Cartão 1</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>457, 30</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>35, 15</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>9</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>495, 27</value>
+  </data>
+  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>108, 23</value>
+  </data>
+  <data name="textBox5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>8</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>154, 31</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>146, 15</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Condições de pagamento:</value>
+  </data>
+  <data name="comboBox2.Items" xml:space="preserve">
+    <value>Débito à vista</value>
+  </data>
+  <data name="comboBox2.Items1" xml:space="preserve">
+    <value>Crédito à vista</value>
+  </data>
+  <data name="comboBox2.Items2" xml:space="preserve">
+    <value>Crédito parcelado x2</value>
+  </data>
+  <data name="comboBox2.Items3" xml:space="preserve">
+    <value>Crédito parcelado x3</value>
+  </data>
+  <data name="comboBox2.Items4" xml:space="preserve">
+    <value>Crédito parcelado x4</value>
+  </data>
+  <data name="comboBox2.Items5" xml:space="preserve">
+    <value>Crédito parcelado x5</value>
+  </data>
+  <data name="comboBox2.Items6" xml:space="preserve">
+    <value>Crédito parcelado x6</value>
+  </data>
+  <data name="comboBox2.Items7" xml:space="preserve">
+    <value>Crédito parcelado x7</value>
+  </data>
+  <data name="comboBox2.Items8" xml:space="preserve">
+    <value>Crédito parcelado x8</value>
+  </data>
+  <data name="comboBox2.Items9" xml:space="preserve">
+    <value>Crédito parcelado x9</value>
+  </data>
+  <data name="comboBox2.Items10" xml:space="preserve">
+    <value>Crédito parcelado x10</value>
+  </data>
+  <data name="comboBox2.Items11" xml:space="preserve">
+    <value>Crédito parcelado x11</value>
+  </data>
+  <data name="comboBox2.Items12" xml:space="preserve">
+    <value>Crédito parcelado x12</value>
+  </data>
+  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>301, 28</value>
+  </data>
+  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>143, 23</value>
+  </data>
+  <data name="comboBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>94, 23</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>36, 15</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>22, 128</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>617, 70</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Cartão 2</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>457, 29</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>35, 15</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>9</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>495, 26</value>
+  </data>
+  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>108, 23</value>
+  </data>
+  <data name="textBox6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>8</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>154, 30</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>146, 15</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Condições de pagamento:</value>
+  </data>
+  <data name="comboBox3.Items" xml:space="preserve">
+    <value>Débito à vista</value>
+  </data>
+  <data name="comboBox3.Items1" xml:space="preserve">
+    <value>Crédito à vista</value>
+  </data>
+  <data name="comboBox3.Items2" xml:space="preserve">
+    <value>Crédito parcelado x2</value>
+  </data>
+  <data name="comboBox3.Items3" xml:space="preserve">
+    <value>Crédito parcelado x3</value>
+  </data>
+  <data name="comboBox3.Items4" xml:space="preserve">
+    <value>Crédito parcelado x4</value>
+  </data>
+  <data name="comboBox3.Items5" xml:space="preserve">
+    <value>Crédito parcelado x5</value>
+  </data>
+  <data name="comboBox3.Items6" xml:space="preserve">
+    <value>Crédito parcelado x6</value>
+  </data>
+  <data name="comboBox3.Items7" xml:space="preserve">
+    <value>Crédito parcelado x7</value>
+  </data>
+  <data name="comboBox3.Items8" xml:space="preserve">
+    <value>Crédito parcelado x8</value>
+  </data>
+  <data name="comboBox3.Items9" xml:space="preserve">
+    <value>Crédito parcelado x9</value>
+  </data>
+  <data name="comboBox3.Items10" xml:space="preserve">
+    <value>Crédito parcelado x10</value>
+  </data>
+  <data name="comboBox3.Items11" xml:space="preserve">
+    <value>Crédito parcelado x11</value>
+  </data>
+  <data name="comboBox3.Items12" xml:space="preserve">
+    <value>Crédito parcelado x12</value>
+  </data>
+  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>301, 27</value>
+  </data>
+  <data name="comboBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>143, 23</value>
+  </data>
+  <data name="comboBox3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>36, 15</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>92, 23</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>22, 205</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>617, 75</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Cartão 3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>411, 26</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>58, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Dinheiro: </value>
+  </data>
+  <data name="txbDinheiro.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>470, 23</value>
+  </data>
+  <data name="txbDinheiro.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>122, 23</value>
+  </data>
+  <data name="txbTaxas.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>265, 23</value>
+  </data>
+  <data name="txbTaxas.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>122, 23</value>
+  </data>
+  <data name="txbResultado.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>87, 23</value>
+  </data>
+  <data name="txbResultado.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>121, 23</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>223, 26</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>38, 15</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Taxas:</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>65, 15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Total Geral:</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>22, 304</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>617, 60</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="txbServico.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>146, 20</value>
+  </data>
+  <data name="txbServico.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>137, 23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>659, 385</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Simulador de Taxa de Cartão - CartPay</value>
+  </data>
+</root>
