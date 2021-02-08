@@ -30,290 +30,578 @@ namespace SimuladorTaxaDeCartao
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.labelValorServico = new System.Windows.Forms.Label();
+            this.gpBoxCartao1 = new System.Windows.Forms.GroupBox();
+            this.labelResultadoCartao1 = new System.Windows.Forms.Label();
+            this.txbResultadoCartao1 = new System.Windows.Forms.TextBox();
+            this.gpBoxPagamentoCartao1 = new System.Windows.Forms.GroupBox();
+            this.opt13Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt12Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt11Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt10Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt9Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt8Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt7Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt6Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt5Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt4Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt3Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt2Cartao1 = new System.Windows.Forms.RadioButton();
+            this.opt1Cartao1 = new System.Windows.Forms.RadioButton();
+            this.labelValorCartao1 = new System.Windows.Forms.Label();
+            this.txbValorCartao1 = new System.Windows.Forms.TextBox();
+            this.labelDinheiro = new System.Windows.Forms.Label();
+            this.gpBoxResultadoGeral = new System.Windows.Forms.GroupBox();
+            this.txbDinheiro = new System.Windows.Forms.TextBox();
             this.txbTaxas = new System.Windows.Forms.TextBox();
             this.txbResultado = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txbServico = new System.Windows.Forms.TextBox();
-            this.txbDinheiro = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.labelTaxas = new System.Windows.Forms.Label();
+            this.labelTotalGeral = new System.Windows.Forms.Label();
+            this.txbValorServico = new System.Windows.Forms.TextBox();
+            this.gpBoxCartao2 = new System.Windows.Forms.GroupBox();
+            this.labelResultadoCartao2 = new System.Windows.Forms.Label();
+            this.txbResultadoCartao2 = new System.Windows.Forms.TextBox();
+            this.gpBoxPagamentoCartao2 = new System.Windows.Forms.GroupBox();
+            this.opt13Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt12Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt11Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt10Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt9Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt8Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt7Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt6Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt5Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt4Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt3Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt2Cartao2 = new System.Windows.Forms.RadioButton();
+            this.opt1Cartao2 = new System.Windows.Forms.RadioButton();
+            this.labelValorCartao2 = new System.Windows.Forms.Label();
+            this.txbValorCartao2 = new System.Windows.Forms.TextBox();
+            this.gpBoxCartao3 = new System.Windows.Forms.GroupBox();
+            this.labelResultadoCartao3 = new System.Windows.Forms.Label();
+            this.txbResultadoCartao3 = new System.Windows.Forms.TextBox();
+            this.gpBoxPagamentoCartao3 = new System.Windows.Forms.GroupBox();
+            this.opt13Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt12Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt11Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt10Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt9Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt8Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt7Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt6Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt5Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt4Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt3Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt2Cartao3 = new System.Windows.Forms.RadioButton();
+            this.opt1Cartao3 = new System.Windows.Forms.RadioButton();
+            this.labelValorCartao3 = new System.Windows.Forms.Label();
+            this.txbValorCartao3 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.gpBoxCartao1.SuspendLayout();
+            this.gpBoxPagamentoCartao1.SuspendLayout();
+            this.gpBoxResultadoGeral.SuspendLayout();
+            this.gpBoxCartao2.SuspendLayout();
+            this.gpBoxPagamentoCartao2.SuspendLayout();
+            this.gpBoxCartao3.SuspendLayout();
+            this.gpBoxPagamentoCartao3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // labelValorServico
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.labelValorServico, "labelValorServico");
+            this.labelValorServico.Name = "labelValorServico";
             // 
-            // groupBox1
+            // gpBoxCartao1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
+            resources.ApplyResources(this.gpBoxCartao1, "gpBoxCartao1");
+            this.gpBoxCartao1.Controls.Add(this.labelResultadoCartao1);
+            this.gpBoxCartao1.Controls.Add(this.txbResultadoCartao1);
+            this.gpBoxCartao1.Controls.Add(this.gpBoxPagamentoCartao1);
+            this.gpBoxCartao1.Controls.Add(this.labelValorCartao1);
+            this.gpBoxCartao1.Controls.Add(this.txbValorCartao1);
+            this.gpBoxCartao1.Name = "gpBoxCartao1";
+            this.gpBoxCartao1.TabStop = false;
             // 
-            // label5
+            // labelResultadoCartao1
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            resources.ApplyResources(this.labelResultadoCartao1, "labelResultadoCartao1");
+            this.labelResultadoCartao1.Name = "labelResultadoCartao1";
             // 
-            // textBox1
+            // txbResultadoCartao1
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.txbResultadoCartao1, "txbResultadoCartao1");
+            this.txbResultadoCartao1.Name = "txbResultadoCartao1";
+            this.txbResultadoCartao1.ReadOnly = true;
+            this.txbResultadoCartao1.TabStop = false;
             // 
-            // groupBox2
+            // gpBoxPagamentoCartao1
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.comboBox2);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.TabStop = false;
+            resources.ApplyResources(this.gpBoxPagamentoCartao1, "gpBoxPagamentoCartao1");
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt13Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt12Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt11Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt10Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt9Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt8Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt7Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt6Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt5Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt4Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt3Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt2Cartao1);
+            this.gpBoxPagamentoCartao1.Controls.Add(this.opt1Cartao1);
+            this.gpBoxPagamentoCartao1.Name = "gpBoxPagamentoCartao1";
+            this.gpBoxPagamentoCartao1.TabStop = false;
             // 
-            // textBox2
+            // opt13Cartao1
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            resources.ApplyResources(this.opt13Cartao1, "opt13Cartao1");
+            this.opt13Cartao1.Name = "opt13Cartao1";
+            this.opt13Cartao1.UseVisualStyleBackColor = true;
+            this.opt13Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // label6
+            // opt12Cartao1
             // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
+            resources.ApplyResources(this.opt12Cartao1, "opt12Cartao1");
+            this.opt12Cartao1.Name = "opt12Cartao1";
+            this.opt12Cartao1.UseVisualStyleBackColor = true;
+            this.opt12Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // groupBox3
+            // opt11Cartao1
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.comboBox3);
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.TabStop = false;
+            resources.ApplyResources(this.opt11Cartao1, "opt11Cartao1");
+            this.opt11Cartao1.Name = "opt11Cartao1";
+            this.opt11Cartao1.UseVisualStyleBackColor = true;
+            this.opt11Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // label7
+            // opt10Cartao1
             // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
+            resources.ApplyResources(this.opt10Cartao1, "opt10Cartao1");
+            this.opt10Cartao1.Name = "opt10Cartao1";
+            this.opt10Cartao1.UseVisualStyleBackColor = true;
+            this.opt10Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // textBox3
+            // opt9Cartao1
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
+            resources.ApplyResources(this.opt9Cartao1, "opt9Cartao1");
+            this.opt9Cartao1.Name = "opt9Cartao1";
+            this.opt9Cartao1.UseVisualStyleBackColor = true;
+            this.opt9Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // label2
+            // opt8Cartao1
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.opt8Cartao1, "opt8Cartao1");
+            this.opt8Cartao1.Name = "opt8Cartao1";
+            this.opt8Cartao1.UseVisualStyleBackColor = true;
+            this.opt8Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // groupBox4
+            // opt7Cartao1
             // 
-            resources.ApplyResources(this.groupBox4, "groupBox4");
-            this.groupBox4.Controls.Add(this.txbDinheiro);
-            this.groupBox4.Controls.Add(this.txbTaxas);
-            this.groupBox4.Controls.Add(this.txbResultado);
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.label3);
-            this.groupBox4.Controls.Add(this.label2);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.TabStop = false;
+            resources.ApplyResources(this.opt7Cartao1, "opt7Cartao1");
+            this.opt7Cartao1.Name = "opt7Cartao1";
+            this.opt7Cartao1.UseVisualStyleBackColor = true;
+            this.opt7Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // txbTaxas
+            // opt6Cartao1
             // 
-            resources.ApplyResources(this.txbTaxas, "txbTaxas");
-            this.txbTaxas.Name = "txbTaxas";
-            this.txbTaxas.ReadOnly = true;
+            resources.ApplyResources(this.opt6Cartao1, "opt6Cartao1");
+            this.opt6Cartao1.Name = "opt6Cartao1";
+            this.opt6Cartao1.UseVisualStyleBackColor = true;
+            this.opt6Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // txbResultado
+            // opt5Cartao1
             // 
-            resources.ApplyResources(this.txbResultado, "txbResultado");
-            this.txbResultado.Name = "txbResultado";
-            this.txbResultado.ReadOnly = true;
+            resources.ApplyResources(this.opt5Cartao1, "opt5Cartao1");
+            this.opt5Cartao1.Name = "opt5Cartao1";
+            this.opt5Cartao1.UseVisualStyleBackColor = true;
+            this.opt5Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // label4
+            // opt4Cartao1
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.opt4Cartao1, "opt4Cartao1");
+            this.opt4Cartao1.Name = "opt4Cartao1";
+            this.opt4Cartao1.UseVisualStyleBackColor = true;
+            this.opt4Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // label3
+            // opt3Cartao1
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.opt3Cartao1, "opt3Cartao1");
+            this.opt3Cartao1.Name = "opt3Cartao1";
+            this.opt3Cartao1.UseVisualStyleBackColor = true;
+            this.opt3Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
-            // txbServico
+            // opt2Cartao1
             // 
-            resources.ApplyResources(this.txbServico, "txbServico");
-            this.txbServico.Name = "txbServico";
+            resources.ApplyResources(this.opt2Cartao1, "opt2Cartao1");
+            this.opt2Cartao1.Name = "opt2Cartao1";
+            this.opt2Cartao1.UseVisualStyleBackColor = true;
+            this.opt2Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
+            // 
+            // opt1Cartao1
+            // 
+            resources.ApplyResources(this.opt1Cartao1, "opt1Cartao1");
+            this.opt1Cartao1.Name = "opt1Cartao1";
+            this.opt1Cartao1.TabStop = true;
+            this.opt1Cartao1.UseVisualStyleBackColor = true;
+            this.opt1Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
+            // 
+            // labelValorCartao1
+            // 
+            resources.ApplyResources(this.labelValorCartao1, "labelValorCartao1");
+            this.labelValorCartao1.Name = "labelValorCartao1";
+            // 
+            // txbValorCartao1
+            // 
+            resources.ApplyResources(this.txbValorCartao1, "txbValorCartao1");
+            this.txbValorCartao1.Name = "txbValorCartao1";
+            // 
+            // labelDinheiro
+            // 
+            resources.ApplyResources(this.labelDinheiro, "labelDinheiro");
+            this.labelDinheiro.Name = "labelDinheiro";
+            // 
+            // gpBoxResultadoGeral
+            // 
+            resources.ApplyResources(this.gpBoxResultadoGeral, "gpBoxResultadoGeral");
+            this.gpBoxResultadoGeral.Controls.Add(this.txbDinheiro);
+            this.gpBoxResultadoGeral.Controls.Add(this.txbTaxas);
+            this.gpBoxResultadoGeral.Controls.Add(this.txbResultado);
+            this.gpBoxResultadoGeral.Controls.Add(this.labelTaxas);
+            this.gpBoxResultadoGeral.Controls.Add(this.labelTotalGeral);
+            this.gpBoxResultadoGeral.Controls.Add(this.labelDinheiro);
+            this.gpBoxResultadoGeral.Name = "gpBoxResultadoGeral";
+            this.gpBoxResultadoGeral.TabStop = false;
             // 
             // txbDinheiro
             // 
             resources.ApplyResources(this.txbDinheiro, "txbDinheiro");
             this.txbDinheiro.Name = "txbDinheiro";
             this.txbDinheiro.ReadOnly = true;
+            this.txbDinheiro.TabStop = false;
             // 
-            // comboBox1
+            // txbTaxas
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            resources.GetString("comboBox1.Items"),
-            resources.GetString("comboBox1.Items1"),
-            resources.GetString("comboBox1.Items2"),
-            resources.GetString("comboBox1.Items3"),
-            resources.GetString("comboBox1.Items4"),
-            resources.GetString("comboBox1.Items5"),
-            resources.GetString("comboBox1.Items6"),
-            resources.GetString("comboBox1.Items7"),
-            resources.GetString("comboBox1.Items8"),
-            resources.GetString("comboBox1.Items9"),
-            resources.GetString("comboBox1.Items10"),
-            resources.GetString("comboBox1.Items11"),
-            resources.GetString("comboBox1.Items12")});
-            this.comboBox1.Name = "comboBox1";
+            resources.ApplyResources(this.txbTaxas, "txbTaxas");
+            this.txbTaxas.Name = "txbTaxas";
+            this.txbTaxas.ReadOnly = true;
+            this.txbTaxas.TabStop = false;
             // 
-            // label8
+            // txbResultado
             // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
+            resources.ApplyResources(this.txbResultado, "txbResultado");
+            this.txbResultado.Name = "txbResultado";
+            this.txbResultado.ReadOnly = true;
+            this.txbResultado.TabStop = false;
             // 
-            // textBox4
+            // labelTaxas
             // 
-            resources.ApplyResources(this.textBox4, "textBox4");
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
+            resources.ApplyResources(this.labelTaxas, "labelTaxas");
+            this.labelTaxas.Name = "labelTaxas";
             // 
-            // label9
+            // labelTotalGeral
             // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.Name = "label9";
+            resources.ApplyResources(this.labelTotalGeral, "labelTotalGeral");
+            this.labelTotalGeral.Name = "labelTotalGeral";
             // 
-            // label10
+            // txbValorServico
             // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
+            resources.ApplyResources(this.txbValorServico, "txbValorServico");
+            this.txbValorServico.Name = "txbValorServico";
+            this.txbValorServico.KeyUp += new System.Windows.Forms.KeyEventHandler(this.valorServico);
             // 
-            // textBox5
+            // gpBoxCartao2
             // 
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
+            resources.ApplyResources(this.gpBoxCartao2, "gpBoxCartao2");
+            this.gpBoxCartao2.Controls.Add(this.labelResultadoCartao2);
+            this.gpBoxCartao2.Controls.Add(this.txbResultadoCartao2);
+            this.gpBoxCartao2.Controls.Add(this.gpBoxPagamentoCartao2);
+            this.gpBoxCartao2.Controls.Add(this.labelValorCartao2);
+            this.gpBoxCartao2.Controls.Add(this.txbValorCartao2);
+            this.gpBoxCartao2.Name = "gpBoxCartao2";
+            this.gpBoxCartao2.TabStop = false;
             // 
-            // label11
+            // labelResultadoCartao2
             // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
+            resources.ApplyResources(this.labelResultadoCartao2, "labelResultadoCartao2");
+            this.labelResultadoCartao2.Name = "labelResultadoCartao2";
             // 
-            // comboBox2
+            // txbResultadoCartao2
             // 
-            resources.ApplyResources(this.comboBox2, "comboBox2");
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            resources.GetString("comboBox2.Items"),
-            resources.GetString("comboBox2.Items1"),
-            resources.GetString("comboBox2.Items2"),
-            resources.GetString("comboBox2.Items3"),
-            resources.GetString("comboBox2.Items4"),
-            resources.GetString("comboBox2.Items5"),
-            resources.GetString("comboBox2.Items6"),
-            resources.GetString("comboBox2.Items7"),
-            resources.GetString("comboBox2.Items8"),
-            resources.GetString("comboBox2.Items9"),
-            resources.GetString("comboBox2.Items10"),
-            resources.GetString("comboBox2.Items11"),
-            resources.GetString("comboBox2.Items12")});
-            this.comboBox2.Name = "comboBox2";
+            resources.ApplyResources(this.txbResultadoCartao2, "txbResultadoCartao2");
+            this.txbResultadoCartao2.Name = "txbResultadoCartao2";
+            this.txbResultadoCartao2.ReadOnly = true;
+            this.txbResultadoCartao2.TabStop = false;
             // 
-            // label12
+            // gpBoxPagamentoCartao2
             // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.Name = "label12";
+            resources.ApplyResources(this.gpBoxPagamentoCartao2, "gpBoxPagamentoCartao2");
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt13Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt12Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt11Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt10Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt9Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt8Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt7Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt6Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt5Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt4Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt3Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt2Cartao2);
+            this.gpBoxPagamentoCartao2.Controls.Add(this.opt1Cartao2);
+            this.gpBoxPagamentoCartao2.Name = "gpBoxPagamentoCartao2";
+            this.gpBoxPagamentoCartao2.TabStop = false;
             // 
-            // textBox6
+            // opt13Cartao2
             // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
+            resources.ApplyResources(this.opt13Cartao2, "opt13Cartao2");
+            this.opt13Cartao2.Name = "opt13Cartao2";
+            this.opt13Cartao2.UseVisualStyleBackColor = true;
             // 
-            // label13
+            // opt12Cartao2
             // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.Name = "label13";
+            resources.ApplyResources(this.opt12Cartao2, "opt12Cartao2");
+            this.opt12Cartao2.Name = "opt12Cartao2";
+            this.opt12Cartao2.UseVisualStyleBackColor = true;
             // 
-            // comboBox3
+            // opt11Cartao2
             // 
-            resources.ApplyResources(this.comboBox3, "comboBox3");
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            resources.GetString("comboBox3.Items"),
-            resources.GetString("comboBox3.Items1"),
-            resources.GetString("comboBox3.Items2"),
-            resources.GetString("comboBox3.Items3"),
-            resources.GetString("comboBox3.Items4"),
-            resources.GetString("comboBox3.Items5"),
-            resources.GetString("comboBox3.Items6"),
-            resources.GetString("comboBox3.Items7"),
-            resources.GetString("comboBox3.Items8"),
-            resources.GetString("comboBox3.Items9"),
-            resources.GetString("comboBox3.Items10"),
-            resources.GetString("comboBox3.Items11"),
-            resources.GetString("comboBox3.Items12")});
-            this.comboBox3.Name = "comboBox3";
+            resources.ApplyResources(this.opt11Cartao2, "opt11Cartao2");
+            this.opt11Cartao2.Name = "opt11Cartao2";
+            this.opt11Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt10Cartao2
+            // 
+            resources.ApplyResources(this.opt10Cartao2, "opt10Cartao2");
+            this.opt10Cartao2.Name = "opt10Cartao2";
+            this.opt10Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt9Cartao2
+            // 
+            resources.ApplyResources(this.opt9Cartao2, "opt9Cartao2");
+            this.opt9Cartao2.Name = "opt9Cartao2";
+            this.opt9Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt8Cartao2
+            // 
+            resources.ApplyResources(this.opt8Cartao2, "opt8Cartao2");
+            this.opt8Cartao2.Name = "opt8Cartao2";
+            this.opt8Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt7Cartao2
+            // 
+            resources.ApplyResources(this.opt7Cartao2, "opt7Cartao2");
+            this.opt7Cartao2.Name = "opt7Cartao2";
+            this.opt7Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt6Cartao2
+            // 
+            resources.ApplyResources(this.opt6Cartao2, "opt6Cartao2");
+            this.opt6Cartao2.Name = "opt6Cartao2";
+            this.opt6Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt5Cartao2
+            // 
+            resources.ApplyResources(this.opt5Cartao2, "opt5Cartao2");
+            this.opt5Cartao2.Name = "opt5Cartao2";
+            this.opt5Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt4Cartao2
+            // 
+            resources.ApplyResources(this.opt4Cartao2, "opt4Cartao2");
+            this.opt4Cartao2.Name = "opt4Cartao2";
+            this.opt4Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt3Cartao2
+            // 
+            resources.ApplyResources(this.opt3Cartao2, "opt3Cartao2");
+            this.opt3Cartao2.Name = "opt3Cartao2";
+            this.opt3Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt2Cartao2
+            // 
+            resources.ApplyResources(this.opt2Cartao2, "opt2Cartao2");
+            this.opt2Cartao2.Name = "opt2Cartao2";
+            this.opt2Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // opt1Cartao2
+            // 
+            resources.ApplyResources(this.opt1Cartao2, "opt1Cartao2");
+            this.opt1Cartao2.Name = "opt1Cartao2";
+            this.opt1Cartao2.TabStop = true;
+            this.opt1Cartao2.UseVisualStyleBackColor = true;
+            // 
+            // labelValorCartao2
+            // 
+            resources.ApplyResources(this.labelValorCartao2, "labelValorCartao2");
+            this.labelValorCartao2.Name = "labelValorCartao2";
+            // 
+            // txbValorCartao2
+            // 
+            resources.ApplyResources(this.txbValorCartao2, "txbValorCartao2");
+            this.txbValorCartao2.Name = "txbValorCartao2";
+            // 
+            // gpBoxCartao3
+            // 
+            resources.ApplyResources(this.gpBoxCartao3, "gpBoxCartao3");
+            this.gpBoxCartao3.Controls.Add(this.labelResultadoCartao3);
+            this.gpBoxCartao3.Controls.Add(this.txbResultadoCartao3);
+            this.gpBoxCartao3.Controls.Add(this.gpBoxPagamentoCartao3);
+            this.gpBoxCartao3.Controls.Add(this.labelValorCartao3);
+            this.gpBoxCartao3.Controls.Add(this.txbValorCartao3);
+            this.gpBoxCartao3.Name = "gpBoxCartao3";
+            this.gpBoxCartao3.TabStop = false;
+            // 
+            // labelResultadoCartao3
+            // 
+            resources.ApplyResources(this.labelResultadoCartao3, "labelResultadoCartao3");
+            this.labelResultadoCartao3.Name = "labelResultadoCartao3";
+            // 
+            // txbResultadoCartao3
+            // 
+            resources.ApplyResources(this.txbResultadoCartao3, "txbResultadoCartao3");
+            this.txbResultadoCartao3.Name = "txbResultadoCartao3";
+            this.txbResultadoCartao3.ReadOnly = true;
+            this.txbResultadoCartao3.TabStop = false;
+            // 
+            // gpBoxPagamentoCartao3
+            // 
+            resources.ApplyResources(this.gpBoxPagamentoCartao3, "gpBoxPagamentoCartao3");
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt13Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt12Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt11Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt10Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt9Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt8Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt7Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt6Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt5Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt4Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt3Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt2Cartao3);
+            this.gpBoxPagamentoCartao3.Controls.Add(this.opt1Cartao3);
+            this.gpBoxPagamentoCartao3.Name = "gpBoxPagamentoCartao3";
+            this.gpBoxPagamentoCartao3.TabStop = false;
+            // 
+            // opt13Cartao3
+            // 
+            resources.ApplyResources(this.opt13Cartao3, "opt13Cartao3");
+            this.opt13Cartao3.Name = "opt13Cartao3";
+            this.opt13Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt12Cartao3
+            // 
+            resources.ApplyResources(this.opt12Cartao3, "opt12Cartao3");
+            this.opt12Cartao3.Name = "opt12Cartao3";
+            this.opt12Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt11Cartao3
+            // 
+            resources.ApplyResources(this.opt11Cartao3, "opt11Cartao3");
+            this.opt11Cartao3.Name = "opt11Cartao3";
+            this.opt11Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt10Cartao3
+            // 
+            resources.ApplyResources(this.opt10Cartao3, "opt10Cartao3");
+            this.opt10Cartao3.Name = "opt10Cartao3";
+            this.opt10Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt9Cartao3
+            // 
+            resources.ApplyResources(this.opt9Cartao3, "opt9Cartao3");
+            this.opt9Cartao3.Name = "opt9Cartao3";
+            this.opt9Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt8Cartao3
+            // 
+            resources.ApplyResources(this.opt8Cartao3, "opt8Cartao3");
+            this.opt8Cartao3.Name = "opt8Cartao3";
+            this.opt8Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt7Cartao3
+            // 
+            resources.ApplyResources(this.opt7Cartao3, "opt7Cartao3");
+            this.opt7Cartao3.Name = "opt7Cartao3";
+            this.opt7Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt6Cartao3
+            // 
+            resources.ApplyResources(this.opt6Cartao3, "opt6Cartao3");
+            this.opt6Cartao3.Name = "opt6Cartao3";
+            this.opt6Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt5Cartao3
+            // 
+            resources.ApplyResources(this.opt5Cartao3, "opt5Cartao3");
+            this.opt5Cartao3.Name = "opt5Cartao3";
+            this.opt5Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt4Cartao3
+            // 
+            resources.ApplyResources(this.opt4Cartao3, "opt4Cartao3");
+            this.opt4Cartao3.Name = "opt4Cartao3";
+            this.opt4Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt3Cartao3
+            // 
+            resources.ApplyResources(this.opt3Cartao3, "opt3Cartao3");
+            this.opt3Cartao3.Name = "opt3Cartao3";
+            this.opt3Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt2Cartao3
+            // 
+            resources.ApplyResources(this.opt2Cartao3, "opt2Cartao3");
+            this.opt2Cartao3.Name = "opt2Cartao3";
+            this.opt2Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // opt1Cartao3
+            // 
+            resources.ApplyResources(this.opt1Cartao3, "opt1Cartao3");
+            this.opt1Cartao3.Name = "opt1Cartao3";
+            this.opt1Cartao3.TabStop = true;
+            this.opt1Cartao3.UseVisualStyleBackColor = true;
+            // 
+            // labelValorCartao3
+            // 
+            resources.ApplyResources(this.labelValorCartao3, "labelValorCartao3");
+            this.labelValorCartao3.Name = "labelValorCartao3";
+            // 
+            // txbValorCartao3
+            // 
+            resources.ApplyResources(this.txbValorCartao3, "txbValorCartao3");
+            this.txbValorCartao3.Name = "txbValorCartao3";
+            // 
+            // maskedTextBox1
+            // 
+            resources.ApplyResources(this.maskedTextBox1, "maskedTextBox1");
+            this.maskedTextBox1.Name = "maskedTextBox1";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.txbServico);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.gpBoxCartao3);
+            this.Controls.Add(this.gpBoxCartao2);
+            this.Controls.Add(this.txbValorServico);
+            this.Controls.Add(this.gpBoxResultadoGeral);
+            this.Controls.Add(this.gpBoxCartao1);
+            this.Controls.Add(this.labelValorServico);
             this.Name = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.gpBoxCartao1.ResumeLayout(false);
+            this.gpBoxCartao1.PerformLayout();
+            this.gpBoxPagamentoCartao1.ResumeLayout(false);
+            this.gpBoxPagamentoCartao1.PerformLayout();
+            this.gpBoxResultadoGeral.ResumeLayout(false);
+            this.gpBoxResultadoGeral.PerformLayout();
+            this.gpBoxCartao2.ResumeLayout(false);
+            this.gpBoxCartao2.PerformLayout();
+            this.gpBoxPagamentoCartao2.ResumeLayout(false);
+            this.gpBoxPagamentoCartao2.PerformLayout();
+            this.gpBoxCartao3.ResumeLayout(false);
+            this.gpBoxCartao3.PerformLayout();
+            this.gpBoxPagamentoCartao3.ResumeLayout(false);
+            this.gpBoxPagamentoCartao3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,36 +609,73 @@ namespace SimuladorTaxaDeCartao
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label labelValorServico;
+        private System.Windows.Forms.GroupBox gpBoxCartao1;
+        private System.Windows.Forms.Label labelDinheiro;
+        private System.Windows.Forms.GroupBox gpBoxResultadoGeral;
         private System.Windows.Forms.TextBox txbTaxas;
         private System.Windows.Forms.TextBox txbResultado;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txbServico;
+        private System.Windows.Forms.Label labelTaxas;
+        private System.Windows.Forms.Label labelTotalGeral;
+        private System.Windows.Forms.TextBox txbValorServico;
         private System.Windows.Forms.TextBox txbDinheiro;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label labelResultadoCartao1;
+        private System.Windows.Forms.TextBox txbResultadoCartao1;
+        private System.Windows.Forms.GroupBox gpBoxPagamentoCartao1;
+        private System.Windows.Forms.RadioButton opt13Cartao1;
+        private System.Windows.Forms.RadioButton opt12Cartao1;
+        private System.Windows.Forms.RadioButton opt11Cartao1;
+        private System.Windows.Forms.RadioButton opt10Cartao1;
+        private System.Windows.Forms.RadioButton opt9Cartao1;
+        private System.Windows.Forms.RadioButton opt8Cartao1;
+        private System.Windows.Forms.RadioButton opt7Cartao1;
+        private System.Windows.Forms.RadioButton opt6Cartao1;
+        private System.Windows.Forms.RadioButton opt5Cartao1;
+        private System.Windows.Forms.RadioButton opt4Cartao1;
+        private System.Windows.Forms.RadioButton opt3Cartao1;
+        private System.Windows.Forms.RadioButton opt2Cartao1;
+        private System.Windows.Forms.RadioButton opt1Cartao1;
+        private System.Windows.Forms.Label labelValorCartao1;
+        private System.Windows.Forms.TextBox txbValorCartao1;
+        private System.Windows.Forms.GroupBox gpBoxCartao2;
+        private System.Windows.Forms.Label labelResultadoCartao2;
+        private System.Windows.Forms.TextBox txbResultadoCartao2;
+        private System.Windows.Forms.GroupBox gpBoxPagamentoCartao2;
+        private System.Windows.Forms.RadioButton opt13Cartao2;
+        private System.Windows.Forms.RadioButton opt12Cartao2;
+        private System.Windows.Forms.RadioButton opt11Cartao2;
+        private System.Windows.Forms.RadioButton opt10Cartao2;
+        private System.Windows.Forms.RadioButton opt9Cartao2;
+        private System.Windows.Forms.RadioButton opt8Cartao2;
+        private System.Windows.Forms.RadioButton opt7Cartao2;
+        private System.Windows.Forms.RadioButton opt6Cartao2;
+        private System.Windows.Forms.RadioButton opt5Cartao2;
+        private System.Windows.Forms.RadioButton opt4Cartao2;
+        private System.Windows.Forms.RadioButton opt3Cartao2;
+        private System.Windows.Forms.RadioButton opt2Cartao2;
+        private System.Windows.Forms.RadioButton opt1Cartao2;
+        private System.Windows.Forms.Label labelValorCartao2;
+        private System.Windows.Forms.TextBox txbValorCartao2;
+        private System.Windows.Forms.GroupBox gpBoxCartao3;
+        private System.Windows.Forms.Label labelResultadoCartao3;
+        private System.Windows.Forms.TextBox txbResultadoCartao3;
+        private System.Windows.Forms.GroupBox gpBoxPagamentoCartao3;
+        private System.Windows.Forms.RadioButton opt13Cartao3;
+        private System.Windows.Forms.RadioButton opt12Cartao3;
+        private System.Windows.Forms.RadioButton opt11Cartao3;
+        private System.Windows.Forms.RadioButton opt10Cartao3;
+        private System.Windows.Forms.RadioButton opt9Cartao3;
+        private System.Windows.Forms.RadioButton opt8Cartao3;
+        private System.Windows.Forms.RadioButton opt7Cartao3;
+        private System.Windows.Forms.RadioButton opt6Cartao3;
+        private System.Windows.Forms.RadioButton opt5Cartao3;
+        private System.Windows.Forms.RadioButton opt4Cartao3;
+        private System.Windows.Forms.RadioButton opt3Cartao3;
+        private System.Windows.Forms.RadioButton opt2Cartao3;
+        private System.Windows.Forms.RadioButton opt1Cartao3;
+        private System.Windows.Forms.Label labelValorCartao3;
+        private System.Windows.Forms.TextBox txbValorCartao3;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
 

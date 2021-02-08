@@ -17,5 +17,21 @@ namespace SimuladorTaxaDeCartao
             InitializeComponent();
         }
 
+        private void optCartao1_CheckedChanged(object sender, EventArgs e)
+        {
+            //marcada a opcao checked
+        }
+
+        private void valorServico(object sender, KeyEventArgs e)
+        {
+           try
+            {
+                float valorServico = (float)Convert.ToDouble(txbValorServico.Text);
+            }
+            catch
+            {
+                txbValorServico.Text = "";
+            }
+        }
     }
 }

@@ -58,436 +58,888 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="labelValorServico.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>22, 23</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="labelValorServico.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>118, 15</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="labelValorServico.Text" xml:space="preserve">
     <value>VALOR DO SERVIÇO: </value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
+  <data name="gpBoxCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 56</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>457, 30</value>
+  <data name="gpBoxCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>199, 423</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>35, 15</value>
+  <data name="gpBoxCartao1.Text" xml:space="preserve">
+    <value>CARTÃO 1</value>
   </data>
-  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>5</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Total:</value>
-  </data>
-  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>495, 27</value>
-  </data>
-  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>108, 23</value>
-  </data>
-  <data name="textBox4.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>4</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="labelResultadoCartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelResultadoCartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>154, 31</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>146, 15</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>3</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Condições de pagamento:</value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Débito à vista</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Crédito à vista</value>
-  </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
-    <value>Crédito parcelado x2</value>
-  </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
-    <value>Crédito parcelado x3</value>
-  </data>
-  <data name="comboBox1.Items4" xml:space="preserve">
-    <value>Crédito parcelado x4</value>
-  </data>
-  <data name="comboBox1.Items5" xml:space="preserve">
-    <value>Crédito parcelado x5</value>
-  </data>
-  <data name="comboBox1.Items6" xml:space="preserve">
-    <value>Crédito parcelado x6</value>
-  </data>
-  <data name="comboBox1.Items7" xml:space="preserve">
-    <value>Crédito parcelado x7</value>
-  </data>
-  <data name="comboBox1.Items8" xml:space="preserve">
-    <value>Crédito parcelado x8</value>
-  </data>
-  <data name="comboBox1.Items9" xml:space="preserve">
-    <value>Crédito parcelado x9</value>
-  </data>
-  <data name="comboBox1.Items10" xml:space="preserve">
-    <value>Crédito parcelado x10</value>
-  </data>
-  <data name="comboBox1.Items11" xml:space="preserve">
-    <value>Crédito parcelado x11</value>
-  </data>
-  <data name="comboBox1.Items12" xml:space="preserve">
-    <value>Crédito parcelado x12</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>301, 28</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>143, 23</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>2</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>15, 31</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>36, 15</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Valor:</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>52, 27</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>91, 23</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>617, 66</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Cartão 1</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>457, 30</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="labelResultadoCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>35, 15</value>
   </data>
-  <data name="label10.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>9</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
+  <data name="labelResultadoCartao1.Text" xml:space="preserve">
     <value>Total:</value>
   </data>
-  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>495, 27</value>
+  <data name="txbResultadoCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>132, 23</value>
   </data>
-  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>108, 23</value>
+  <data name="gpBoxPagamentoCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>169, 332</value>
   </data>
-  <data name="textBox5.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>8</value>
+  <data name="gpBoxPagamentoCartao1.Text" xml:space="preserve">
+    <value>Condições de pagamento</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="opt13Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
-  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="opt13Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>154, 31</value>
+  <data name="opt13Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>146, 15</value>
+  <data name="opt13Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 12X</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>7</value>
+  <data name="opt12Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Condições de pagamento:</value>
+  <data name="opt12Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="comboBox2.Items" xml:space="preserve">
+  <data name="opt12Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt12Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 11X</value>
+  </data>
+  <data name="opt11Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt11Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt11Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt11Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 10X</value>
+  </data>
+  <data name="opt10Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt10Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt10Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt10Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 9X</value>
+  </data>
+  <data name="opt9Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt9Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt9Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt9Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 8X</value>
+  </data>
+  <data name="opt8Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt8Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt8Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt8Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 7X</value>
+  </data>
+  <data name="opt7Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt7Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt7Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt7Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 6X</value>
+  </data>
+  <data name="opt6Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt6Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt6Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt6Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 5X</value>
+  </data>
+  <data name="opt5Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt5Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt5Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt5Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 4X</value>
+  </data>
+  <data name="opt4Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt4Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt4Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt4Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 3X</value>
+  </data>
+  <data name="opt3Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt3Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt3Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt3Cartao1.Text" xml:space="preserve">
+    <value>Crédito parcelado 2X</value>
+  </data>
+  <data name="opt2Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt2Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>116, 19</value>
+  </data>
+  <data name="opt2Cartao1.Text" xml:space="preserve">
+    <value>Crédito à vista 1X</value>
+  </data>
+  <data name="opt1Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt1Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>96, 19</value>
+  </data>
+  <data name="opt1Cartao1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="opt1Cartao1.Text" xml:space="preserve">
     <value>Débito à vista</value>
   </data>
-  <data name="comboBox2.Items1" xml:space="preserve">
-    <value>Crédito à vista</value>
-  </data>
-  <data name="comboBox2.Items2" xml:space="preserve">
-    <value>Crédito parcelado x2</value>
-  </data>
-  <data name="comboBox2.Items3" xml:space="preserve">
-    <value>Crédito parcelado x3</value>
-  </data>
-  <data name="comboBox2.Items4" xml:space="preserve">
-    <value>Crédito parcelado x4</value>
-  </data>
-  <data name="comboBox2.Items5" xml:space="preserve">
-    <value>Crédito parcelado x5</value>
-  </data>
-  <data name="comboBox2.Items6" xml:space="preserve">
-    <value>Crédito parcelado x6</value>
-  </data>
-  <data name="comboBox2.Items7" xml:space="preserve">
-    <value>Crédito parcelado x7</value>
-  </data>
-  <data name="comboBox2.Items8" xml:space="preserve">
-    <value>Crédito parcelado x8</value>
-  </data>
-  <data name="comboBox2.Items9" xml:space="preserve">
-    <value>Crédito parcelado x9</value>
-  </data>
-  <data name="comboBox2.Items10" xml:space="preserve">
-    <value>Crédito parcelado x10</value>
-  </data>
-  <data name="comboBox2.Items11" xml:space="preserve">
-    <value>Crédito parcelado x11</value>
-  </data>
-  <data name="comboBox2.Items12" xml:space="preserve">
-    <value>Crédito parcelado x12</value>
-  </data>
-  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>301, 28</value>
-  </data>
-  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>143, 23</value>
-  </data>
-  <data name="comboBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>94, 23</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="labelValorCartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelValorCartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="labelValorCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>36, 15</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
+  <data name="labelValorCartao1.Text" xml:space="preserve">
     <value>Valor:</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>22, 128</value>
+  <data name="txbValorCartao1.PlaceholderText" xml:space="preserve">
+    <value>Ex.: 500,00</value>
   </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>617, 70</value>
+  <data name="txbValorCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>132, 23</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Cartão 2</value>
+  <data name="txbValorCartao1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
   </data>
-  <data name="label12.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="labelDinheiro.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
-  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelDinheiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>457, 29</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>35, 15</value>
-  </data>
-  <data name="label12.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>9</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Total:</value>
-  </data>
-  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>495, 26</value>
-  </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>108, 23</value>
-  </data>
-  <data name="textBox6.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>8</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>154, 30</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>146, 15</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>7</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Condições de pagamento:</value>
-  </data>
-  <data name="comboBox3.Items" xml:space="preserve">
-    <value>Débito à vista</value>
-  </data>
-  <data name="comboBox3.Items1" xml:space="preserve">
-    <value>Crédito à vista</value>
-  </data>
-  <data name="comboBox3.Items2" xml:space="preserve">
-    <value>Crédito parcelado x2</value>
-  </data>
-  <data name="comboBox3.Items3" xml:space="preserve">
-    <value>Crédito parcelado x3</value>
-  </data>
-  <data name="comboBox3.Items4" xml:space="preserve">
-    <value>Crédito parcelado x4</value>
-  </data>
-  <data name="comboBox3.Items5" xml:space="preserve">
-    <value>Crédito parcelado x5</value>
-  </data>
-  <data name="comboBox3.Items6" xml:space="preserve">
-    <value>Crédito parcelado x6</value>
-  </data>
-  <data name="comboBox3.Items7" xml:space="preserve">
-    <value>Crédito parcelado x7</value>
-  </data>
-  <data name="comboBox3.Items8" xml:space="preserve">
-    <value>Crédito parcelado x8</value>
-  </data>
-  <data name="comboBox3.Items9" xml:space="preserve">
-    <value>Crédito parcelado x9</value>
-  </data>
-  <data name="comboBox3.Items10" xml:space="preserve">
-    <value>Crédito parcelado x10</value>
-  </data>
-  <data name="comboBox3.Items11" xml:space="preserve">
-    <value>Crédito parcelado x11</value>
-  </data>
-  <data name="comboBox3.Items12" xml:space="preserve">
-    <value>Crédito parcelado x12</value>
-  </data>
-  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>301, 27</value>
-  </data>
-  <data name="comboBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>143, 23</value>
-  </data>
-  <data name="comboBox3.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>36, 15</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Valor:</value>
-  </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>92, 23</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>22, 205</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>617, 75</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Cartão 3</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>411, 26</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="labelDinheiro.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>58, 15</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
+  <data name="labelDinheiro.Text" xml:space="preserve">
     <value>Dinheiro: </value>
   </data>
+  <data name="gpBoxResultadoGeral.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 485</value>
+  </data>
+  <data name="gpBoxResultadoGeral.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>595, 60</value>
+  </data>
+  <data name="gpBoxResultadoGeral.Text" xml:space="preserve">
+    <value>Total Geral</value>
+  </data>
   <data name="txbDinheiro.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>470, 23</value>
+    <value>454, 22</value>
   </data>
   <data name="txbDinheiro.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>122, 23</value>
+    <value>114, 23</value>
   </data>
   <data name="txbTaxas.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>265, 23</value>
+    <value>264, 22</value>
   </data>
   <data name="txbTaxas.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>122, 23</value>
+    <value>114, 23</value>
   </data>
   <data name="txbResultado.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>87, 23</value>
+    <value>85, 23</value>
   </data>
   <data name="txbResultado.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>121, 23</value>
+    <value>114, 23</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="labelTaxas.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>223, 26</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="labelTaxas.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>38, 15</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
+  <data name="labelTaxas.Text" xml:space="preserve">
     <value>Taxas:</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="labelTotalGeral.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="labelTotalGeral.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>65, 15</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
+  <data name="labelTotalGeral.Text" xml:space="preserve">
     <value>Total Geral:</value>
   </data>
-  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>22, 304</value>
+  <data name="txbValorServico.PlaceholderText" xml:space="preserve">
+    <value>Ex.: 1250,00</value>
   </data>
-  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>617, 60</value>
+  <data name="txbValorServico.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>157, 23</value>
   </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>Total</value>
+  <data name="txbValorServico.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
   </data>
-  <data name="txbServico.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>146, 20</value>
+  <data name="gpBoxCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>210, 56</value>
   </data>
-  <data name="txbServico.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>137, 23</value>
+  <data name="gpBoxCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>199, 423</value>
+  </data>
+  <data name="gpBoxCartao2.Text" xml:space="preserve">
+    <value>CARTÃO 2</value>
+  </data>
+  <data name="labelResultadoCartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labelResultadoCartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelResultadoCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>35, 15</value>
+  </data>
+  <data name="labelResultadoCartao2.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="txbResultadoCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>132, 23</value>
+  </data>
+  <data name="gpBoxPagamentoCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>169, 332</value>
+  </data>
+  <data name="gpBoxPagamentoCartao2.Text" xml:space="preserve">
+    <value>Condições de pagamento</value>
+  </data>
+  <data name="opt13Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt13Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt13Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt13Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 12X</value>
+  </data>
+  <data name="opt12Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt12Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt12Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt12Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 11X</value>
+  </data>
+  <data name="opt11Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt11Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt11Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt11Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 10X</value>
+  </data>
+  <data name="opt10Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt10Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt10Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt10Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 9X</value>
+  </data>
+  <data name="opt9Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt9Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt9Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt9Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 8X</value>
+  </data>
+  <data name="opt8Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt8Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt8Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt8Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 7X</value>
+  </data>
+  <data name="opt7Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt7Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt7Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt7Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 6X</value>
+  </data>
+  <data name="opt6Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt6Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt6Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt6Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 5X</value>
+  </data>
+  <data name="opt5Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt5Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt5Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt5Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 4X</value>
+  </data>
+  <data name="opt4Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt4Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt4Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt4Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 3X</value>
+  </data>
+  <data name="opt3Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt3Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt3Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt3Cartao2.Text" xml:space="preserve">
+    <value>Crédito parcelado 2X</value>
+  </data>
+  <data name="opt2Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt2Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt2Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>116, 19</value>
+  </data>
+  <data name="opt2Cartao2.Text" xml:space="preserve">
+    <value>Crédito à vista 1X</value>
+  </data>
+  <data name="opt1Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt1Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt1Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>96, 19</value>
+  </data>
+  <data name="opt1Cartao2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="opt1Cartao2.Text" xml:space="preserve">
+    <value>Débito à vista</value>
+  </data>
+  <data name="labelValorCartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labelValorCartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelValorCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>36, 15</value>
+  </data>
+  <data name="labelValorCartao2.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="txbValorCartao2.PlaceholderText" xml:space="preserve">
+    <value>Ex.: 500,00</value>
+  </data>
+  <data name="txbValorCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>132, 23</value>
+  </data>
+  <data name="txbValorCartao2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="gpBoxCartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>408, 56</value>
+  </data>
+  <data name="gpBoxCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>199, 423</value>
+  </data>
+  <data name="gpBoxCartao3.Text" xml:space="preserve">
+    <value>CARTÃO 3</value>
+  </data>
+  <data name="labelResultadoCartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labelResultadoCartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelResultadoCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>35, 15</value>
+  </data>
+  <data name="labelResultadoCartao3.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="txbResultadoCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>132, 23</value>
+  </data>
+  <data name="gpBoxPagamentoCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>169, 332</value>
+  </data>
+  <data name="gpBoxPagamentoCartao3.Text" xml:space="preserve">
+    <value>Condições de pagamento</value>
+  </data>
+  <data name="opt13Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt13Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt13Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt13Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 12X</value>
+  </data>
+  <data name="opt12Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt12Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt12Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt12Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 11X</value>
+  </data>
+  <data name="opt11Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt11Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt11Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 19</value>
+  </data>
+  <data name="opt11Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 10X</value>
+  </data>
+  <data name="opt10Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt10Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt10Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt10Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 9X</value>
+  </data>
+  <data name="opt9Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt9Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt9Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt9Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 8X</value>
+  </data>
+  <data name="opt8Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt8Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt8Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt8Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 7X</value>
+  </data>
+  <data name="opt7Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt7Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt7Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt7Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 6X</value>
+  </data>
+  <data name="opt6Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt6Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt6Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt6Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 5X</value>
+  </data>
+  <data name="opt5Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt5Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt5Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt5Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 4X</value>
+  </data>
+  <data name="opt4Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt4Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt4Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt4Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 3X</value>
+  </data>
+  <data name="opt3Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt3Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt3Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>135, 19</value>
+  </data>
+  <data name="opt3Cartao3.Text" xml:space="preserve">
+    <value>Crédito parcelado 2X</value>
+  </data>
+  <data name="opt2Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt2Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt2Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>116, 19</value>
+  </data>
+  <data name="opt2Cartao3.Text" xml:space="preserve">
+    <value>Crédito à vista 1X</value>
+  </data>
+  <data name="opt1Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="opt1Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opt1Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>96, 19</value>
+  </data>
+  <data name="opt1Cartao3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="opt1Cartao3.Text" xml:space="preserve">
+    <value>Débito à vista</value>
+  </data>
+  <data name="labelValorCartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labelValorCartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelValorCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>36, 15</value>
+  </data>
+  <data name="labelValorCartao3.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="txbValorCartao3.PlaceholderText" xml:space="preserve">
+    <value>Ex.: 250,00</value>
+  </data>
+  <data name="txbValorCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>132, 23</value>
+  </data>
+  <data name="txbValorCartao3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="maskedTextBox1.Mask" xml:space="preserve">
+    <value>$ 000,00</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>659, 385</value>
+    <value>619, 556</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAMMOAADDDgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1NTQBNTU0ATU1NAE1NTQFNTU0BTU1NAU1N
+        TQFNTU0BTU1NAU1NTQFNTU0BTU1NAU1NTQFNTU0BTU1NAU1NTQFNTU0BTU1NAU1NTQFNTU0BTU1NAU1N
+        TQFNTU0BTU1NAU1NTQFNTU0BTU1NAU1NTQFNTU0BTU1NAU1NTQFNTU0BTU1NAU1NTQFNTU0BTU1NAExM
+        TABMTEwATU1NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVAE5OTgBOTk4ATU1NAE5O
+        TgBOTk4ATk5OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE5P
+        UABOT08ATk9QAU1NTQNNTUwATU1NAE1NTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1N
+        TQBNTU0ATU1NAU5OTgRPT08ETEpKBXimsQRfcncFWmZhBVZeYgVTWV8FVFpgBVRaYAVUWmAFVFpgBVRa
+        YAVUWmAFVFpgBVRaYAVUWmAFVFpgBVRaYAVUWmAFVFpgBVRaYAVUWmAFVFpgBVRaYAVUWmAFVFpgBVRa
+        YAVUWmAFVFpgBVRaXwRUWmAFWmZxAmJ5jwBNTk8BTU1NAE1NTQBOTk4AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAVVVVAE1NTQNNTU0ATU1NXE1NTe9NTU3dTU5O20lFRN5LSUjdS0pK3UxMSt1NTEvdTExK3UxM
+        St1MTErdTExK3UxMSt1MTErdTExK3UxMSt1MTErdTExK3UxMSt1MTErdTExK3UxMSt1MTErdTExK3UxM
+        St1MTErdTExK3UxMSt1MTErdTExK3UxMSt1NTEvdS0hG3EpHRXM+LBwAPy8gAU1NTQAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAVVVVAE1NTQFNTU0ATU1NFE1NTTxQVFUwSkZFymeEi/+M0eD9grzT/3Cb
+        x/9ynsj/cp7I/3KeyP9ynsj/cp7I/3KeyP9ynsj/cp7I/3KeyP9ynsj/cp7I/3KeyP9ynsj/cp7I/3Ke
+        yP9ynsj/cp7I/3KeyP9ynsj/cp7I/3KeyP9ynsj/cp7I/3Gdx/9zoMr/cJm+/VJYXv9JRUFNSEI8AE1N
+        TQNWVlYAAAAAAAAAAAAAAAAAAAAAAAAAAABNTU0ATExMAE1NTQBNTU0DTU1NA0lEQwBympwESURE3IrM
+        1v+g+v/7m+/+/Y3U+v2DwfP9g8Lz/YPC8/2DwfP9g8Hz/YPB8/2DwfP9g8Hz/YPB8/2DwfP9g8Hz/YPB
+        8/2DwfP9g8Hz/YPB8/2DwfP9g8Hz/YPB8/2DwfP9g8Hz/YPB8/2DwfP9g8Hy/YPC8/1/ue39g8T/+GF5
+        j/9GPjaCQjUpAE1NTQRNTU0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATU1NAJnq
+        +wOT3/AAcpqkh5nr9v+f9//8nvT//6D4//+f9v//nvX//571//+e9f//nvX//571//+e9f//nvX//571
+        //+e9f//nvX//571//+e9f//nvX//571//+e9f//nvX//571//+e9f//nvX//571//+e9f//nvT//5/3
+        //+X5/v/hcb/+2N8k/9GPjaDQTQnAE1NTQRNTU0AAAAAAAAAAAAAAAAAAAAAAAAAAABNTU0ATExMAEtL
+        SwBNTU1STU1NaU9RUmdCNzRYcpqkkX62xP96sL38e7G+/3uwvv97sb7/e7G+/3uxvv97sb7/e7G+/3ux
+        vv97sb7/e7G+/3uxvv97sb7/e7G+/3uxvv97sb7/e7G+/3uxvv97sb7/e7G+/3uxvv97sb7/e7G+/3ux
+        vv97sb7/e7G+/3uyvv96r7z/bpi8+1lod/9JRD+ERz42AE1NTQRNTU0AAAAAAAAAAAAAAAAAAAAAAAAA
+        AABNTU0BTU1NAE1NTQJNTU2nTU1Nz01NTcZOTk7KS0hI+VlUUv9eWln/XVhX/11ZV/9dWFf/XVhX/11Y
+        V/9dWFf/XVhX/11YV/9dWFf/XVhX/11YV/9dWFf/XVhX/11YV/9dWFf/XVhX/11YV/9dWFf/XVhX/11Y
+        V/9dWFf/XVhX/11YV/9dWFf/XVhX/15ZV/9dWFf/WlZS+1JQT/9LTEyESktMAE1NTQRNTU0AAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATU1NATk3NgBPS0oFTE1N3Y2Oj/+hoqP9nZ6e/52f
+        n/+dn5//nZ+f/52fn/+dn5//nZ+f/52fn/+dn5//nZ+f/52fn/+dn5//nZ+f/52fn/+dn5//nZ+f/52f
+        n/+dn5//nZ+f/52fn/+dn5//nZ+f/52fn/+dn5//nZ6f/56fn/+am5z/iYqL+2NjZP9GRkaEQUFBAE1N
+        TQRNTU0AAAAAAAAAAAAAAAAAAAAAAAAAAABNTU0ATU1NAE1NTQBNTU0CTU1NA3t7fAFQUFAITExM4ImJ
+        if+bnJz9l5eX/5iYmP+YmJj/mJiY/5iYmP+YmJj/mJiY/5iYmP+YmJj/mJiY/5iYmP+YmJj/mJiY/5iY
+        mP+YmJj/mJiY/5iYmP+YmJj/mJiY/5iYmP+YmJj/mJiY/5iYmP+YmJj/mJiY/5iZmf+VlZX/hYaH+2Ji
+        Yv9GRkaEQkFBAE1NTQRNTU0AAAAAAAAAAAAAAAAAAAAAAAAAAABNTU0ATk5OAE5OTgBOTk4ATU1NATs5
+        OQBPTUwGTE1N34yNjf+foKD9m5yc/5ycnf+cnJ3/nJyd/5ycnf+cnJ3/nJyd/5ycnf+cnJ3/nJyd/5yc
+        nf+cnJ3/nJyd/5ycnf+cnJ3/nJyd/5ycnf+cnJ3/nJyd/5ycnf+cnJ3/nJyd/5ycnf+cnJ3/nJyc/5yd
+        nf+Zmpr/h4SB+2JgX/9GR0eGP0BAAE1NTQRNTU0ATU1NAE1NTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAATU1NAVRfYgBebnIFS0lI3VZSUf9bV1b9WlZV/1pWVf9aVlX/WlZV/1pWVf9aVlX/WlZV/1pW
+        Vf9aVlX/WlZV/1pWVf9aVlX/WlZV/1pWVf9aVlX/WlZV/1pWVf9aVlX/WlZV/1pWVf9aVlX/WlZV/1pW
+        Vf9aVlX/WlZV/1lVVP9bWFf/gI6b+2NqcP9GQ0GDQj48AE1NTQZNTU0BTU1NAE1NTQBMTEwAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAATU1NAI7V5gOO1OUAfrPAdYK+zf+Au8r7gbzK/4C8yv+AvMr/gLzK/4C8
+        yv+AvMr/gbzL/4C6yf+Au8n/gLzK/4C6yP+BvMr/gLrI/4C8yv+Au8n/f7nH/3+5yP9/ucj/f7nI/3+5
+        yP9/ucj/f7nH/4C7yf+AvMv/gLvK/4C7yv+Au8v/gcH4/WJ8lf9GQDfSSUlDR+7//wFCPS0CTk5QAk1N
+        TQFNTU0ATU1NAE1NTQAAAAAAAAAAAAAAAAAAAAAATU1NAJnr/QOX5vkAgrrIdpvv+/+f9v/7nvT//571
+        //+e9f//nvX//571//+e9f//nfT//6L7//+h+f//n/b//6P9//+e9P//o/7//5/2//+g+f//pf///6T/
+        //+l////pf///6X///+k////pf///6D5//+e9P//oPj//5/3//+Z6vv/gr/1/2B4jP9WWGb+V1to/0VD
+        Pa5hZ3cMWFtjAFFSUwFNTU0BTU1NAE1NTQAAAAAAAAAAAAAAAAAAAAAATU1NAT4tKQBVXV8FS0lJ3onK
+        2v+c8P/9mOj7/5np/f+Y6f3/mOn9/5jp/f+X6Pv/m+///4TAzv+Jytr/k97w/36yv/+a7P//fLC8/5Xi
+        9f+M0OD/cJeg/3Ocpv9zm6X/c5ul/3Obpf9znaf/cJag/4vO3f+a7P//jNPz/4bH9v+CwPT/h8n//2F6
+        jP9ncJf9jaf9+mdte/9FQz64cHqUB0lJSAdOTk4CTk5PAE1NTQBNTU0ATU1NAE1NTQBNTU0ATU1NAT0r
+        JgBQUlIGTExL34rL2/+b8v/9l+n9/5fr//+a6///mev//5nr//+Y6f3/nfT//3yuuv+Dvcv/kdvs/3Ka
+        pP+b8P//cJaf/5Th8/+HxdT/X3J4/2N7gv9jeoD/Y3qA/2N6gP9je4H/YXd6/360yP+Hy/7/e7Pr/3Cb
+        wv9mhqD/ZYak/1FeZv9mbpH/jan//6fA+fxqcHT+RkVE405OTu5NTU1hTU1NAE1NTQRNTU0ATU1NAE1N
+        TQJNTU0CTk5OAGN7gQFPUFAKTUxL4IXJ2v/G+P/93vX7/6Dq/P+T6f3/m+v//5nr//+Z6///mOr//53z
+        //+c8f//mu3//572//+Z6///nvb//5rs//+c8P//ofv//5/4//+f+P//n/j//5/3//+g+v//mOr+/4PD
+        +/9vmMD/VF1g/1FTXP9XXHf/bXGC/2drb/9PUFL/YWyW/522+f++1fH9sMXl+nF5hP9APTl9OTUuAE1N
+        TQUAAAAAAAAAAAAAAAAAAAAATU1NATceGwBQS0kFTkxM3YzW3P/r///9//79//L///+q9f//lOn//5vr
+        //+Z6///mev//5jp/f+Y6v7/mev+/5jp/f+Z6///mOn9/5nr//+Y6fz/jNP2/4jL+/+Hyvv/h8r7/4fK
+        +/+Iyvr/hMX+/22TuP9NS0r/anan/4+n8f+jvf//wt3+/8bf//+rvtv/Wlxc/2Zuhf/C2///0Ov/+XuF
+        kv88ODN7My0mAE1NTQRNTU0DTU1NAE1NTVBNTU1gTU1NAE1NTYZOTk68SkdG9F1xdv94g4b+f4OE/3p7
+        e/+wvsP/qvX//5Po/f+a6///mev//5nr//+Z6///mev//5nr//+Z6///mev//5ns/v+IzPf/dqbZ/2N+
+        lf9edoj/X3eK/192iv9fdor/YHmM/01PS/9ygbv/qsb//8HZ/P/D2/v/wNf6/77W+v/I4v//uc/t/15h
+        Zf+swN7/zej/+3mCj/89OTR9NC8nAE1NTQVNTU0CTU1NAE1NTTtNTU1GTU1NAE9RUWZHQD5/aoiQoXSf
+        qv+RnqH9naOl/5Kbnf/J0NP/6v///6Ls/v+X6///muv//5nr//+Z6///mev//5nr//+Z6v//mu3//5Ph
+        /v93qdn/T1RX/1ZYbv9iapD/YGeL/2BojP9haI3/X2aH/2h2q/+ctfv/xNz6/8DY+/+/1/z/wNj8/8DY
+        /P++1vr/wtr9/77V9/+91Pf/yuX/+3qDkf88OTR9NC8nAE1NTQUAAAAAAAAAAAAAAAAAAAAATU1NAJvu
+        /wOV5PUAdp+ohJfu9//g///8///////////3/P7/9/r8/7zv/P+S5/z/men8/5jo/P+Y6Pz/mOj8/5jo
+        /P+X6Pz/mer7/5Hc//9fd4//XmBv/6jE//+uyP7/rcf//67I//+uyP//rsj//6zF/f+60vj/wdn8/8DY
+        /P/A2Pz/wNj8/8DY/P/A2Pz/v9f7/8HZ/f+/1vr/yuT/+3qDkf88OTR9NC8nAE1NTQVNTU0ATU1NAE1N
+        TQJNTU0CTU1NAE5PUAJqiooHSEJC24XEz/+q///5uPn9+7j7//u6/f/7uf7/+6L5//uf+f/7oPn/+6D5
+        //ug+f/7oPj//Z/4//+f9///oPj9/571//9cdIz/bG53/9Ht///L5f3/zOb//8zm///M5v//zOb//83n
+        ///I4v//wNj8/8DY/P/A2Pz/wNj8/8DY/P/A2Pz/wNj8/8DY+/++1vn/yuT/+3qDkf88OTR9NC8nAE1N
+        TQUAAAAAAAAAAAAAAAAAAAAATU1NAE5PTwNFPDoASkZFh1poa/90oaz8b56p/3Ceqv9wnqr/cJ6q/3Sf
+        qv91n6r/dZ+q/3Wfqv91n6r/dJ+o/3OfpPxzn6P/cpyg/360vP+IxuD/TlFQ/3R7gv+Mmaj/iZSj/4mV
+        o/+JlaP/ipak/4eSn/+WpLn/wdn+/8DY/P/A2Pz/wNj8/8DY/P/A2Pz/wNj8/8DY/P++1vn/yuT/+3qD
+        kf88OTR9NC8nAE1NTQUAAAAAAAAAAAAAAAAAAAAATU1NAE5OTwBsjZUAaoeOBEdAPmlFOjiiRjs5nkY7
+        OZ9GOzmfRjs5n0U7OZ9EOzmfRDs5n0U8OqBCNzKaU1FhzGBlhv9hZor7WFt6/15ljf+Iqvj/epHV/1pi
+        hv9VXXv/Vl59/1ZdfP9WXXz/V19+/1FYd/9xfJv/w9v//8DX+//A2Pz/wNj8/7/X+/++1vn/vtb5/77W
+        +f+81Pb/yOL/+3mCkP89OTR9NC8nAE1NTQUAAAAAAAAAAAAAAAAAAAAATU1NAE1NTQBNTU0ATU1NAU1N
+        TQBNTU0ATU1NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK/W/wH///8A////AY6p6X92hrf/o732+6/L
+        //2ftPH/o7v5/6jC//+owv//qML//6jC//+owv//qML//6jC//+91v//wdn8/7/X+/++1vn/v9f6/8Pc
+        //7J4//8yuT/+8rk//vI4vz71fL/936Ik/87NzN7MiwmAE1NTQQAAAAAAAAAAAAAAAAAAAAATU1NAE1N
+        TQBNTU0ATU1NAE1NTQRNTU0ETU1NBE1NTQRNTU0ETU1NBE1NTQRNTU0ETU1NBE1NTQRLSkcFAAAAAEZA
+        IQZFQjevXWBg/6Ozyf3O6P/8xt78/8HY+P/D2/r/w9v7/8Pb+//D2/v/w9v6/8Pa+f+/1vf/v9b7/8Tc
+        //7J4//8yOH/+7TJ6v+SoLX/hpKk/4iUp/+Hk6X/jZqu+2RocP9FQ0B9QD46AE1NTQUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABOTk4ATk5OAE5OTgBOTk4ATk5OAE5OTgBOTk4ATk5OAE5OTgBOTk4ATk5OAG56
+        pACXs/8AeozGAXWGwgMAAAAAQD49XEZFQ+p0fYv/udDw/Mji//2+1fr/vdX5/77W+v+91fn/vtb7/8Pc
+        //7J4//8x+D/+7LH5/+PnLH/a3F7/1JTVPhDQT69Pz04m0A9OZ5APTmePzw3nEhHRadPUFE+UFFSAE1N
+        TQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABPT1AAT09PAE9PUAFLSkkDREI/AFJTVRVBPjukVVZZ/5amvv7I4v/7yOH//cbf
+        //3K5P/7xt///LDE5P+Mma3/aW94/1BRUvVCQD26PTo1aENBPR4LAAAAIhoMAFpcYAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOTk4ATU1NAE1NTQBNTU0ATk5OAzgzLQIYDQAAREI/SkVD
+        QeBtc33/n7DK/qW41P+Kl6r+Z2x0/09QUPNCPzy0PTo1YkRCPxoaEAMAKyQbAURCQABOT08CTU1NBE1N
+        TQRNTU0ETU1NBE1NTQRNTU0CTU1NAE1NTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1NTQBNTU0ATU1NAE1N
+        TQJMTEwETk9PAFVXWQ5BPjqCR0VD0kpJSNtBPzuuPTk0XEVEQRYpIRYAMiwkAUhHRQBOTk4CTU1NBE1N
+        TQJNTU0AUFBQAE5OTgBOTk4ATk5OAE5OTgBOTk4ATk5OAE5OTgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABOTk4ATU1NAE1NTQBOTk4ATU1NA05OTwFdYGQAdHqCAW51fgJlanEAV1lcAEpJSABOTk4DTU1NBE1N
+        TQJNTU0ATU1NAE1NTQBNTU0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1NTQBNTU0ATU1NAE1NTQFNTU0EUlNUAT88NwBOTk8DTU1NBE1N
+        TQFNTU0ATU1NAE1NTQBNTU0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATU1NAE5OTgBNTU0ATU1NAE1N
+        TQFNTU0ATU1NAE1NTQBOTk4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP///////wAA////////
+        AAD///////8AAP///////wAA////////AAD///////8AANAAAAAB/wAA0////+i/AADQAAAAAr8AANAA
+        AAABPwAA0AAAAAC/AABkAAAAAL8AAPIAAAAAvwAAQAAAAAC/AABAAAAAAL8AAPQAAAAAvwAAQAAAAAC/
+        AADkAAAAAK8AAPQAAAAAlwAA8gAAAAACAADyAAAAABIAAPQAAAAAAgAAxAAAAAACAABAAAAAAAIAAPQA
+        AAAAAgAASAAAAAACAABIAAAAAAIAAPIAAAAAAgAAQAAAAAACAADyAAAAAAIAAPIAAAAAAgAA9L+gAAAC
+        AAD6ABAAAAIAAP+AJAAAAgAA///SAAE/AAD//+iACgIAAP//+kBQAwAA///9EoX/AAD///9EL/8AAP//
+        //F//wAA////////AAD///////8AAP///////wAA////////AAD///////8AAP///////wAA////////
+        AAA=
+</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>635, 595</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>635, 595</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Simulador de Taxa de Cartão - CartPay</value>
