@@ -1,2 +1,3 @@
-﻿<h1>Instalaçao:</h1>👴
-<p>Ao clonar o repositório, faça a instalação das dependencias do projeto usando o Visual Studio</p>
+﻿<h1>Calculadora para simulação de taxa de cartão da CredPay:</h1>👴
+<p>A calculadora foi projetada para calcular taxas de até 03 cartões e por fim forma de pagamento em espécie.</p>
+<p>Nota: construída em C#, Windows Forms</p>
