@@ -96,7 +96,6 @@ namespace SimuladorTaxaDeCartao
             this.opt1Cartao3 = new System.Windows.Forms.RadioButton();
             this.labelValorCartao3 = new System.Windows.Forms.Label();
             this.txbValorCartao3 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.gpBoxCartao1.SuspendLayout();
             this.gpBoxPagamentoCartao1.SuspendLayout();
             this.gpBoxResultadoGeral.SuspendLayout();
@@ -241,7 +240,6 @@ namespace SimuladorTaxaDeCartao
             // 
             resources.ApplyResources(this.opt1Cartao1, "opt1Cartao1");
             this.opt1Cartao1.Name = "opt1Cartao1";
-            this.opt1Cartao1.TabStop = true;
             this.opt1Cartao1.UseVisualStyleBackColor = true;
             this.opt1Cartao1.CheckedChanged += new System.EventHandler(this.optCartao1_CheckedChanged);
             // 
@@ -254,6 +252,7 @@ namespace SimuladorTaxaDeCartao
             // 
             resources.ApplyResources(this.txbValorCartao1, "txbValorCartao1");
             this.txbValorCartao1.Name = "txbValorCartao1";
+            this.txbValorCartao1.Leave += new System.EventHandler(this.valorCartao1);
             // 
             // labelDinheiro
             // 
@@ -307,7 +306,7 @@ namespace SimuladorTaxaDeCartao
             // 
             resources.ApplyResources(this.txbValorServico, "txbValorServico");
             this.txbValorServico.Name = "txbValorServico";
-            this.txbValorServico.KeyUp += new System.Windows.Forms.KeyEventHandler(this.valorServico);
+            this.txbValorServico.Leave += new System.EventHandler(this.valorServico);
             // 
             // gpBoxCartao2
             // 
@@ -356,72 +355,84 @@ namespace SimuladorTaxaDeCartao
             resources.ApplyResources(this.opt13Cartao2, "opt13Cartao2");
             this.opt13Cartao2.Name = "opt13Cartao2";
             this.opt13Cartao2.UseVisualStyleBackColor = true;
+            this.opt13Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt12Cartao2
             // 
             resources.ApplyResources(this.opt12Cartao2, "opt12Cartao2");
             this.opt12Cartao2.Name = "opt12Cartao2";
             this.opt12Cartao2.UseVisualStyleBackColor = true;
+            this.opt12Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt11Cartao2
             // 
             resources.ApplyResources(this.opt11Cartao2, "opt11Cartao2");
             this.opt11Cartao2.Name = "opt11Cartao2";
             this.opt11Cartao2.UseVisualStyleBackColor = true;
+            this.opt11Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt10Cartao2
             // 
             resources.ApplyResources(this.opt10Cartao2, "opt10Cartao2");
             this.opt10Cartao2.Name = "opt10Cartao2";
             this.opt10Cartao2.UseVisualStyleBackColor = true;
+            this.opt10Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt9Cartao2
             // 
             resources.ApplyResources(this.opt9Cartao2, "opt9Cartao2");
             this.opt9Cartao2.Name = "opt9Cartao2";
             this.opt9Cartao2.UseVisualStyleBackColor = true;
+            this.opt9Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt8Cartao2
             // 
             resources.ApplyResources(this.opt8Cartao2, "opt8Cartao2");
             this.opt8Cartao2.Name = "opt8Cartao2";
             this.opt8Cartao2.UseVisualStyleBackColor = true;
+            this.opt8Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt7Cartao2
             // 
             resources.ApplyResources(this.opt7Cartao2, "opt7Cartao2");
             this.opt7Cartao2.Name = "opt7Cartao2";
             this.opt7Cartao2.UseVisualStyleBackColor = true;
+            this.opt7Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt6Cartao2
             // 
             resources.ApplyResources(this.opt6Cartao2, "opt6Cartao2");
             this.opt6Cartao2.Name = "opt6Cartao2";
             this.opt6Cartao2.UseVisualStyleBackColor = true;
+            this.opt6Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt5Cartao2
             // 
             resources.ApplyResources(this.opt5Cartao2, "opt5Cartao2");
             this.opt5Cartao2.Name = "opt5Cartao2";
             this.opt5Cartao2.UseVisualStyleBackColor = true;
+            this.opt5Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt4Cartao2
             // 
             resources.ApplyResources(this.opt4Cartao2, "opt4Cartao2");
             this.opt4Cartao2.Name = "opt4Cartao2";
             this.opt4Cartao2.UseVisualStyleBackColor = true;
+            this.opt4Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt3Cartao2
             // 
             resources.ApplyResources(this.opt3Cartao2, "opt3Cartao2");
             this.opt3Cartao2.Name = "opt3Cartao2";
             this.opt3Cartao2.UseVisualStyleBackColor = true;
+            this.opt3Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt2Cartao2
             // 
             resources.ApplyResources(this.opt2Cartao2, "opt2Cartao2");
             this.opt2Cartao2.Name = "opt2Cartao2";
             this.opt2Cartao2.UseVisualStyleBackColor = true;
+            this.opt2Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // opt1Cartao2
             // 
@@ -429,6 +440,7 @@ namespace SimuladorTaxaDeCartao
             this.opt1Cartao2.Name = "opt1Cartao2";
             this.opt1Cartao2.TabStop = true;
             this.opt1Cartao2.UseVisualStyleBackColor = true;
+            this.opt1Cartao2.CheckedChanged += new System.EventHandler(this.optCartao2_CheckedChanged);
             // 
             // labelValorCartao2
             // 
@@ -439,6 +451,7 @@ namespace SimuladorTaxaDeCartao
             // 
             resources.ApplyResources(this.txbValorCartao2, "txbValorCartao2");
             this.txbValorCartao2.Name = "txbValorCartao2";
+            this.txbValorCartao2.Leave += new System.EventHandler(this.valorCartao2);
             // 
             // gpBoxCartao3
             // 
@@ -487,72 +500,84 @@ namespace SimuladorTaxaDeCartao
             resources.ApplyResources(this.opt13Cartao3, "opt13Cartao3");
             this.opt13Cartao3.Name = "opt13Cartao3";
             this.opt13Cartao3.UseVisualStyleBackColor = true;
+            this.opt13Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt12Cartao3
             // 
             resources.ApplyResources(this.opt12Cartao3, "opt12Cartao3");
             this.opt12Cartao3.Name = "opt12Cartao3";
             this.opt12Cartao3.UseVisualStyleBackColor = true;
+            this.opt12Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt11Cartao3
             // 
             resources.ApplyResources(this.opt11Cartao3, "opt11Cartao3");
             this.opt11Cartao3.Name = "opt11Cartao3";
             this.opt11Cartao3.UseVisualStyleBackColor = true;
+            this.opt11Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt10Cartao3
             // 
             resources.ApplyResources(this.opt10Cartao3, "opt10Cartao3");
             this.opt10Cartao3.Name = "opt10Cartao3";
             this.opt10Cartao3.UseVisualStyleBackColor = true;
+            this.opt10Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt9Cartao3
             // 
             resources.ApplyResources(this.opt9Cartao3, "opt9Cartao3");
             this.opt9Cartao3.Name = "opt9Cartao3";
             this.opt9Cartao3.UseVisualStyleBackColor = true;
+            this.opt9Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt8Cartao3
             // 
             resources.ApplyResources(this.opt8Cartao3, "opt8Cartao3");
             this.opt8Cartao3.Name = "opt8Cartao3";
             this.opt8Cartao3.UseVisualStyleBackColor = true;
+            this.opt8Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt7Cartao3
             // 
             resources.ApplyResources(this.opt7Cartao3, "opt7Cartao3");
             this.opt7Cartao3.Name = "opt7Cartao3";
             this.opt7Cartao3.UseVisualStyleBackColor = true;
+            this.opt7Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt6Cartao3
             // 
             resources.ApplyResources(this.opt6Cartao3, "opt6Cartao3");
             this.opt6Cartao3.Name = "opt6Cartao3";
             this.opt6Cartao3.UseVisualStyleBackColor = true;
+            this.opt6Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt5Cartao3
             // 
             resources.ApplyResources(this.opt5Cartao3, "opt5Cartao3");
             this.opt5Cartao3.Name = "opt5Cartao3";
             this.opt5Cartao3.UseVisualStyleBackColor = true;
+            this.opt5Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt4Cartao3
             // 
             resources.ApplyResources(this.opt4Cartao3, "opt4Cartao3");
             this.opt4Cartao3.Name = "opt4Cartao3";
             this.opt4Cartao3.UseVisualStyleBackColor = true;
+            this.opt4Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt3Cartao3
             // 
             resources.ApplyResources(this.opt3Cartao3, "opt3Cartao3");
             this.opt3Cartao3.Name = "opt3Cartao3";
             this.opt3Cartao3.UseVisualStyleBackColor = true;
+            this.opt3Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt2Cartao3
             // 
             resources.ApplyResources(this.opt2Cartao3, "opt2Cartao3");
             this.opt2Cartao3.Name = "opt2Cartao3";
             this.opt2Cartao3.UseVisualStyleBackColor = true;
+            this.opt2Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // opt1Cartao3
             // 
@@ -560,6 +585,7 @@ namespace SimuladorTaxaDeCartao
             this.opt1Cartao3.Name = "opt1Cartao3";
             this.opt1Cartao3.TabStop = true;
             this.opt1Cartao3.UseVisualStyleBackColor = true;
+            this.opt1Cartao3.CheckedChanged += new System.EventHandler(this.optCartao3_CheckedChanged);
             // 
             // labelValorCartao3
             // 
@@ -570,17 +596,12 @@ namespace SimuladorTaxaDeCartao
             // 
             resources.ApplyResources(this.txbValorCartao3, "txbValorCartao3");
             this.txbValorCartao3.Name = "txbValorCartao3";
-            // 
-            // maskedTextBox1
-            // 
-            resources.ApplyResources(this.maskedTextBox1, "maskedTextBox1");
-            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.txbValorCartao3.Leave += new System.EventHandler(this.valorCartao3);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.gpBoxCartao3);
             this.Controls.Add(this.gpBoxCartao2);
             this.Controls.Add(this.txbValorServico);
@@ -675,7 +696,6 @@ namespace SimuladorTaxaDeCartao
         private System.Windows.Forms.RadioButton opt1Cartao3;
         private System.Windows.Forms.Label labelValorCartao3;
         private System.Windows.Forms.TextBox txbValorCartao3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
 
