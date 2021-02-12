@@ -4,6 +4,15 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>src\ico\card_icon.ico</ApplicationIcon>
+    <Product>Simulador de taxa de cartão</Product>
+    <Copyright>Open source</Copyright>
+    <Company>6º Serviço Notarial</Company>
+    <Authors>Felipe Teixeira da Conceição</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
   </PropertyGroup>
 
 </Project>

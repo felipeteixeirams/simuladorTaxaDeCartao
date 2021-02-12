@@ -13,7 +13,7 @@ namespace SimuladorTaxaDeCartao.model
         {
             this.Taxa = (this.Valor * taxa) / 100;
             this.SubTotal = this.Valor + this.Taxa;
-            return SubTotal.ToString();
+            return SubTotal.ToString("C");
         }
     }
 }

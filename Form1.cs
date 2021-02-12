@@ -18,7 +18,7 @@ namespace SimuladorTaxaDeCartao
             InitializeComponent();
         }
         /*
-        * Declaração de variáveis
+        * Declaração de variáveis e valores iniciais
         **/
         Cartao cartao1 = new Cartao();
         Cartao cartao2 = new Cartao();
@@ -36,10 +36,15 @@ namespace SimuladorTaxaDeCartao
             cartao3.Taxa = 0;
             cartao3.SubTotal = 0;
         }
+
         /*
         * Dados
         **/
-        double[] taxas = {1.2, 2, 3, 3.5, 4, 5, 6, 6.8, 7, 8, 9, 11, 13};
+        double[] taxas = {1.23, 3.75, 6.03, 7.22, 8.82, 10.43, 12.05, 13.69, 15.35, 18.11, 19.92, 21.74, 23.58};
+
+        /*
+        * Lendo os campos com valores texto
+        **/
         private void valorServico(object sender, EventArgs e)
         {
             try
@@ -92,19 +97,25 @@ namespace SimuladorTaxaDeCartao
             }
         }
 
+        /*
+        * Calculando resultados
+        **/
         private void valorEmEspecie()
         {
             double valoresCartoes = cartao1.Valor + cartao2.Valor + cartao3.Valor;
-            txbDinheiro.Text = (valorDoServico - valoresCartoes).ToString();
+            txbDinheiro.Text = (valorDoServico - valoresCartoes).ToString("C");
         }
         private void totalTaxas()
         {
-            txbTaxas.Text = (cartao1.Taxa + cartao2.Taxa + cartao3.Taxa).ToString();
+            txbTaxas.Text = (cartao1.Taxa + cartao2.Taxa + cartao3.Taxa).ToString("C");
         }
         private void valorTotal()
         {
-            txbResultado.Text = (cartao1.SubTotal + cartao2.SubTotal + cartao3.SubTotal).ToString();
+            txbResultado.Text = (cartao1.SubTotal + cartao2.SubTotal + cartao3.SubTotal).ToString("C");
         }
+        /*
+        * Calculando Taxas com base no parcelamento escolhido
+        **/
         private void optCartao1_CheckedChanged(object sender, EventArgs e)
         {
             if (opt1Cartao1.Checked == true) txbResultadoCartao1.Text = cartao1.CalcularPagamento(taxas[0]);

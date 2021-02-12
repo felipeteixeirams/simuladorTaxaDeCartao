@@ -61,70 +61,41 @@
   <data name="labelValorServico.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="labelValorServico.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
   <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelValorServico.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>25, 31</value>
+    <value>21, 21</value>
   </data>
   <data name="labelValorServico.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>148, 20</value>
+    <value>148, 19</value>
   </data>
   <data name="labelValorServico.Text" xml:space="preserve">
     <value>VALOR DO SERVIÇO: </value>
   </data>
-  <data name="gpBoxCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>14, 75</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gpBoxCartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxCartao1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>227, 564</value>
-  </data>
-  <data name="gpBoxCartao1.Text" xml:space="preserve">
-    <value>CARTÃO 1</value>
-  </data>
   <data name="labelResultadoCartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelResultadoCartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelResultadoCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>17, 523</value>
+    <value>15, 392</value>
   </data>
   <data name="labelResultadoCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>68, 20</value>
+    <value>54, 15</value>
   </data>
   <data name="labelResultadoCartao1.Text" xml:space="preserve">
     <value>Subtotal:</value>
   </data>
   <data name="txbResultadoCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>91, 519</value>
-  </data>
-  <data name="txbResultadoCartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>80, 389</value>
   </data>
   <data name="txbResultadoCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>123, 27</value>
-  </data>
-  <data name="gpBoxPagamentoCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>14, 68</value>
-  </data>
-  <data name="gpBoxPagamentoCartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxPagamentoCartao1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxPagamentoCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>200, 443</value>
-  </data>
-  <data name="gpBoxPagamentoCartao1.Text" xml:space="preserve">
-    <value>Condições de pagamento</value>
+    <value>108, 23</value>
   </data>
   <data name="opt13Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -132,14 +103,8 @@
   <data name="opt13Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt13Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 401</value>
-  </data>
-  <data name="opt13Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt13Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt13Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 12X</value>
@@ -150,14 +115,8 @@
   <data name="opt12Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt12Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 371</value>
-  </data>
-  <data name="opt12Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt12Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt12Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 11X</value>
@@ -168,14 +127,8 @@
   <data name="opt11Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt11Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 340</value>
-  </data>
-  <data name="opt11Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt11Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt11Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 10X</value>
@@ -186,14 +139,8 @@
   <data name="opt10Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt10Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 309</value>
-  </data>
-  <data name="opt10Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt10Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt10Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 9X</value>
@@ -204,14 +151,8 @@
   <data name="opt9Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt9Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 279</value>
-  </data>
-  <data name="opt9Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt9Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt9Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 8X</value>
@@ -222,14 +163,8 @@
   <data name="opt8Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt8Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 248</value>
-  </data>
-  <data name="opt8Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt8Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt8Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 7X</value>
@@ -240,14 +175,8 @@
   <data name="opt7Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt7Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 217</value>
-  </data>
-  <data name="opt7Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt7Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt7Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 6X</value>
@@ -258,14 +187,8 @@
   <data name="opt6Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt6Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 187</value>
-  </data>
-  <data name="opt6Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt6Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt6Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 5X</value>
@@ -276,14 +199,8 @@
   <data name="opt5Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt5Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 156</value>
-  </data>
-  <data name="opt5Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt5Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt5Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 4X</value>
@@ -294,14 +211,8 @@
   <data name="opt4Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt4Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 125</value>
-  </data>
-  <data name="opt4Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt4Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt4Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 3X</value>
@@ -312,14 +223,8 @@
   <data name="opt3Cartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt3Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 92</value>
-  </data>
-  <data name="opt3Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt3Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt3Cartao1.Text" xml:space="preserve">
     <value>Crédito parcelado 2X</value>
@@ -327,14 +232,8 @@
   <data name="opt2Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
-  <data name="opt2Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 61</value>
-  </data>
-  <data name="opt2Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt2Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>146, 24</value>
+    <value>116, 19</value>
   </data>
   <data name="opt2Cartao1.Text" xml:space="preserve">
     <value>Crédito à vista 1X</value>
@@ -342,14 +241,8 @@
   <data name="opt1Cartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
-  <data name="opt1Cartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 31</value>
-  </data>
-  <data name="opt1Cartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt1Cartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>122, 24</value>
+    <value>96, 19</value>
   </data>
   <data name="opt1Cartao1.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>1</value>
@@ -357,35 +250,53 @@
   <data name="opt1Cartao1.Text" xml:space="preserve">
     <value>Débito à vista</value>
   </data>
+  <data name="gpBoxPagamentoCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 51</value>
+  </data>
+  <data name="gpBoxPagamentoCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>175, 332</value>
+  </data>
+  <data name="gpBoxPagamentoCartao1.Text" xml:space="preserve">
+    <value>Condições de pagamento</value>
+  </data>
   <data name="labelValorCartao1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
+  </data>
+  <data name="labelValorCartao1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="labelValorCartao1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelValorCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>16, 32</value>
+    <value>14, 24</value>
   </data>
   <data name="labelValorCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>46, 20</value>
+    <value>38, 15</value>
   </data>
   <data name="labelValorCartao1.Text" xml:space="preserve">
     <value>Valor:</value>
   </data>
   <data name="txbValorCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>64, 28</value>
-  </data>
-  <data name="txbValorCartao1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>56, 21</value>
   </data>
   <data name="txbValorCartao1.PlaceholderText" xml:space="preserve">
     <value>Ex.: 500,00</value>
   </data>
   <data name="txbValorCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>150, 27</value>
+    <value>132, 23</value>
   </data>
   <data name="txbValorCartao1.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>1</value>
+  </data>
+  <data name="gpBoxCartao1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 56</value>
+  </data>
+  <data name="gpBoxCartao1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>199, 423</value>
+  </data>
+  <data name="gpBoxCartao1.Text" xml:space="preserve">
+    <value>CARTÃO 1</value>
   </data>
   <data name="labelDinheiro.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -394,109 +305,76 @@
     <value>NoControl</value>
   </data>
   <data name="labelDinheiro.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>440, 34</value>
+    <value>387, 26</value>
   </data>
   <data name="labelDinheiro.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>73, 20</value>
+    <value>67, 15</value>
   </data>
   <data name="labelDinheiro.Text" xml:space="preserve">
-    <value>Dinheiro: </value>
-  </data>
-  <data name="gpBoxResultadoGeral.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>14, 647</value>
-  </data>
-  <data name="gpBoxResultadoGeral.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxResultadoGeral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxResultadoGeral.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>680, 80</value>
-  </data>
-  <data name="gpBoxResultadoGeral.Text" xml:space="preserve">
-    <value>Total Geral</value>
+    <value>DINHEIRO: </value>
   </data>
   <data name="txbDinheiro.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>516, 31</value>
-  </data>
-  <data name="txbDinheiro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>456, 22</value>
   </data>
   <data name="txbDinheiro.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>130, 27</value>
+    <value>114, 23</value>
   </data>
   <data name="txbTaxas.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>289, 30</value>
-  </data>
-  <data name="txbTaxas.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>254, 22</value>
   </data>
   <data name="txbTaxas.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>130, 27</value>
+    <value>114, 23</value>
   </data>
   <data name="txbResultado.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>84, 30</value>
-  </data>
-  <data name="txbResultado.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>75, 21</value>
   </data>
   <data name="txbResultado.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>130, 27</value>
+    <value>114, 23</value>
   </data>
   <data name="labelTaxas.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
   <data name="labelTaxas.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>240, 34</value>
+    <value>208, 26</value>
   </data>
   <data name="labelTaxas.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>47, 20</value>
+    <value>44, 15</value>
   </data>
   <data name="labelTaxas.Text" xml:space="preserve">
-    <value>Taxas:</value>
+    <value>TAXAS:</value>
   </data>
   <data name="labelTotalGeral.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
   <data name="labelTotalGeral.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>35, 33</value>
+    <value>31, 25</value>
   </data>
   <data name="labelTotalGeral.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>45, 20</value>
+    <value>42, 15</value>
   </data>
   <data name="labelTotalGeral.Text" xml:space="preserve">
-    <value>Total:</value>
+    <value>TOTAL:</value>
+  </data>
+  <data name="gpBoxResultadoGeral.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 485</value>
+  </data>
+  <data name="gpBoxResultadoGeral.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>595, 60</value>
+  </data>
+  <data name="gpBoxResultadoGeral.Text" xml:space="preserve">
+    <value>Total Geral</value>
   </data>
   <data name="txbValorServico.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>167, 27</value>
-  </data>
-  <data name="txbValorServico.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>171, 19</value>
   </data>
   <data name="txbValorServico.PlaceholderText" xml:space="preserve">
     <value>Ex.: 1250,00</value>
   </data>
   <data name="txbValorServico.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 27</value>
+    <value>157, 23</value>
   </data>
   <data name="txbValorServico.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>1</value>
-  </data>
-  <data name="gpBoxCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>240, 75</value>
-  </data>
-  <data name="gpBoxCartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxCartao2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>227, 564</value>
-  </data>
-  <data name="gpBoxCartao2.Text" xml:space="preserve">
-    <value>CARTÃO 2</value>
   </data>
   <data name="labelResultadoCartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -505,37 +383,19 @@
     <value>NoControl</value>
   </data>
   <data name="labelResultadoCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>16, 523</value>
+    <value>14, 392</value>
   </data>
   <data name="labelResultadoCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>68, 20</value>
+    <value>54, 15</value>
   </data>
   <data name="labelResultadoCartao2.Text" xml:space="preserve">
     <value>Subtotal:</value>
   </data>
   <data name="txbResultadoCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>90, 520</value>
-  </data>
-  <data name="txbResultadoCartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>79, 390</value>
   </data>
   <data name="txbResultadoCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>123, 27</value>
-  </data>
-  <data name="gpBoxPagamentoCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 68</value>
-  </data>
-  <data name="gpBoxPagamentoCartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxPagamentoCartao2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxPagamentoCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>200, 443</value>
-  </data>
-  <data name="gpBoxPagamentoCartao2.Text" xml:space="preserve">
-    <value>Condições de pagamento</value>
+    <value>108, 23</value>
   </data>
   <data name="opt13Cartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -543,14 +403,8 @@
   <data name="opt13Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt13Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 401</value>
-  </data>
-  <data name="opt13Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt13Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt13Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 12X</value>
@@ -561,14 +415,8 @@
   <data name="opt12Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt12Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 371</value>
-  </data>
-  <data name="opt12Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt12Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt12Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 11X</value>
@@ -579,14 +427,8 @@
   <data name="opt11Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt11Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 340</value>
-  </data>
-  <data name="opt11Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt11Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt11Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 10X</value>
@@ -597,14 +439,8 @@
   <data name="opt10Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt10Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 309</value>
-  </data>
-  <data name="opt10Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt10Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt10Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 9X</value>
@@ -615,14 +451,8 @@
   <data name="opt9Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt9Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 279</value>
-  </data>
-  <data name="opt9Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt9Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt9Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 8X</value>
@@ -633,14 +463,8 @@
   <data name="opt8Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt8Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 248</value>
-  </data>
-  <data name="opt8Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt8Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt8Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 7X</value>
@@ -651,14 +475,8 @@
   <data name="opt7Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt7Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 217</value>
-  </data>
-  <data name="opt7Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt7Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt7Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 6X</value>
@@ -669,14 +487,8 @@
   <data name="opt6Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt6Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 187</value>
-  </data>
-  <data name="opt6Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt6Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt6Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 5X</value>
@@ -687,14 +499,8 @@
   <data name="opt5Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt5Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 156</value>
-  </data>
-  <data name="opt5Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt5Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt5Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 4X</value>
@@ -705,14 +511,8 @@
   <data name="opt4Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt4Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 125</value>
-  </data>
-  <data name="opt4Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt4Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt4Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 3X</value>
@@ -723,14 +523,8 @@
   <data name="opt3Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt3Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 92</value>
-  </data>
-  <data name="opt3Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt3Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt3Cartao2.Text" xml:space="preserve">
     <value>Crédito parcelado 2X</value>
@@ -741,14 +535,8 @@
   <data name="opt2Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt2Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 61</value>
-  </data>
-  <data name="opt2Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt2Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>146, 24</value>
+    <value>116, 19</value>
   </data>
   <data name="opt2Cartao2.Text" xml:space="preserve">
     <value>Crédito à vista 1X</value>
@@ -759,14 +547,8 @@
   <data name="opt1Cartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt1Cartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 31</value>
-  </data>
-  <data name="opt1Cartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt1Cartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>122, 24</value>
+    <value>96, 19</value>
   </data>
   <data name="opt1Cartao2.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>1</value>
@@ -774,35 +556,53 @@
   <data name="opt1Cartao2.Text" xml:space="preserve">
     <value>Débito à vista</value>
   </data>
+  <data name="gpBoxPagamentoCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>11, 51</value>
+  </data>
+  <data name="gpBoxPagamentoCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>175, 332</value>
+  </data>
+  <data name="gpBoxPagamentoCartao2.Text" xml:space="preserve">
+    <value>Condições de pagamento</value>
+  </data>
   <data name="labelValorCartao2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
+  </data>
+  <data name="labelValorCartao2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="labelValorCartao2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelValorCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>15, 32</value>
+    <value>13, 24</value>
   </data>
   <data name="labelValorCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>46, 20</value>
+    <value>38, 15</value>
   </data>
   <data name="labelValorCartao2.Text" xml:space="preserve">
     <value>Valor:</value>
   </data>
   <data name="txbValorCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>63, 29</value>
-  </data>
-  <data name="txbValorCartao2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>55, 22</value>
   </data>
   <data name="txbValorCartao2.PlaceholderText" xml:space="preserve">
     <value>Ex.: 500,00</value>
   </data>
   <data name="txbValorCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>150, 27</value>
+    <value>132, 23</value>
   </data>
   <data name="txbValorCartao2.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>1</value>
+  </data>
+  <data name="gpBoxCartao2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>210, 56</value>
+  </data>
+  <data name="gpBoxCartao2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>199, 423</value>
+  </data>
+  <data name="gpBoxCartao2.Text" xml:space="preserve">
+    <value>CARTÃO 2</value>
   </data>
   <data name="labelResultadoCartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -811,22 +611,19 @@
     <value>NoControl</value>
   </data>
   <data name="labelResultadoCartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>17, 523</value>
+    <value>15, 392</value>
   </data>
   <data name="labelResultadoCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>68, 20</value>
+    <value>54, 15</value>
   </data>
   <data name="labelResultadoCartao3.Text" xml:space="preserve">
     <value>Subtotal:</value>
   </data>
   <data name="txbResultadoCartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>91, 519</value>
-  </data>
-  <data name="txbResultadoCartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>80, 389</value>
   </data>
   <data name="txbResultadoCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>123, 27</value>
+    <value>108, 23</value>
   </data>
   <data name="opt13Cartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -834,14 +631,8 @@
   <data name="opt13Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt13Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 401</value>
-  </data>
-  <data name="opt13Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt13Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt13Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 12X</value>
@@ -852,14 +643,8 @@
   <data name="opt12Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt12Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 371</value>
-  </data>
-  <data name="opt12Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt12Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt12Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 11X</value>
@@ -870,14 +655,8 @@
   <data name="opt11Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt11Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 340</value>
-  </data>
-  <data name="opt11Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt11Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>179, 24</value>
+    <value>141, 19</value>
   </data>
   <data name="opt11Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 10X</value>
@@ -888,14 +667,8 @@
   <data name="opt10Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt10Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>11, 309</value>
-  </data>
-  <data name="opt10Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt10Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt10Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 9X</value>
@@ -906,14 +679,8 @@
   <data name="opt9Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt9Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 279</value>
-  </data>
-  <data name="opt9Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt9Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt9Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 8X</value>
@@ -924,14 +691,8 @@
   <data name="opt8Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt8Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 248</value>
-  </data>
-  <data name="opt8Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt8Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt8Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 7X</value>
@@ -942,14 +703,8 @@
   <data name="opt7Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt7Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 217</value>
-  </data>
-  <data name="opt7Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt7Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt7Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 6X</value>
@@ -960,14 +715,8 @@
   <data name="opt6Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt6Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 187</value>
-  </data>
-  <data name="opt6Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt6Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt6Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 5X</value>
@@ -978,14 +727,8 @@
   <data name="opt5Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt5Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 156</value>
-  </data>
-  <data name="opt5Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt5Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt5Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 4X</value>
@@ -996,14 +739,8 @@
   <data name="opt4Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt4Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 125</value>
-  </data>
-  <data name="opt4Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt4Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt4Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 3X</value>
@@ -1014,14 +751,8 @@
   <data name="opt3Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt3Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 92</value>
-  </data>
-  <data name="opt3Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt3Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>171, 24</value>
+    <value>135, 19</value>
   </data>
   <data name="opt3Cartao3.Text" xml:space="preserve">
     <value>Crédito parcelado 2X</value>
@@ -1032,14 +763,8 @@
   <data name="opt2Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt2Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 61</value>
-  </data>
-  <data name="opt2Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt2Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>146, 24</value>
+    <value>116, 19</value>
   </data>
   <data name="opt2Cartao3.Text" xml:space="preserve">
     <value>Crédito à vista 1X</value>
@@ -1050,14 +775,8 @@
   <data name="opt1Cartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="opt1Cartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>13, 31</value>
-  </data>
-  <data name="opt1Cartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="opt1Cartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>122, 24</value>
+    <value>96, 19</value>
   </data>
   <data name="opt1Cartao3.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>1</value>
@@ -1066,16 +785,10 @@
     <value>Débito à vista</value>
   </data>
   <data name="gpBoxPagamentoCartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>14, 68</value>
-  </data>
-  <data name="gpBoxPagamentoCartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxPagamentoCartao3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>12, 51</value>
   </data>
   <data name="gpBoxPagamentoCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>200, 443</value>
+    <value>175, 332</value>
   </data>
   <data name="gpBoxPagamentoCartao3.Text" xml:space="preserve">
     <value>Condições de pagamento</value>
@@ -1083,55 +796,45 @@
   <data name="labelValorCartao3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
+  <data name="labelValorCartao3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
   <data name="labelValorCartao3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelValorCartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>16, 33</value>
+    <value>14, 25</value>
   </data>
   <data name="labelValorCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>46, 20</value>
+    <value>38, 15</value>
   </data>
   <data name="labelValorCartao3.Text" xml:space="preserve">
     <value>Valor:</value>
   </data>
   <data name="txbValorCartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>64, 29</value>
-  </data>
-  <data name="txbValorCartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>56, 22</value>
   </data>
   <data name="txbValorCartao3.PlaceholderText" xml:space="preserve">
     <value>Ex.: 250,00</value>
   </data>
   <data name="txbValorCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>150, 27</value>
+    <value>132, 23</value>
   </data>
   <data name="txbValorCartao3.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>1</value>
   </data>
   <data name="gpBoxCartao3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>466, 75</value>
-  </data>
-  <data name="gpBoxCartao3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="gpBoxCartao3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>408, 56</value>
   </data>
   <data name="gpBoxCartao3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>227, 564</value>
+    <value>199, 423</value>
   </data>
   <data name="gpBoxCartao3.Text" xml:space="preserve">
     <value>CARTÃO 3</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
-    <value>8, 20</value>
-  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>705, 731</value>
+    <value>619, 548</value>
   </data>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAMMOAADDDgAAAAAAAAAA
@@ -1299,10 +1002,10 @@
 </value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>723, 778</value>
+    <value>635, 593</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>723, 778</value>
+    <value>635, 562</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
